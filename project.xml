@@ -8,14 +8,14 @@
     <Documentation path="changes/">- Overview of alignments</Documentation>
     <!-- BIS documents -->
     <Documentation path="">BIS DOCUMENTS</Documentation>
-    <Documentation path="profiles/3-order-only/">- Peppol BIS Order only 3.2</Documentation>
+<!--    <Documentation path="profiles/3-order-only/">- Peppol BIS Order only 3.2</Documentation>-->
     <Documentation path="profiles/28-ordering/">- Peppol BIS Ordering 3.2</Documentation>
-    <Documentation path="profiles/1-catalogueonly/">- Peppol BIS Catalogue with response 3.1</Documentation>
-    <Documentation path="profiles/64-catalogue-wo-response/">- Peppol BIS Catalogue without response 3.1</Documentation>
-    <Documentation path="profiles/30-despatchadvice/">- Peppol BIS Despatch Advice 3.1</Documentation>
-    <Documentation path="profiles/18-punchout/">- Peppol BIS Punch Out 3.1</Documentation>
+<!--    <Documentation path="profiles/1-catalogueonly/">- Peppol BIS Catalogue with response 3.1</Documentation>-->
+<!--    <Documentation path="profiles/64-catalogue-wo-response/">- Peppol BIS Catalogue without response 3.1</Documentation>-->
+<!--    <Documentation path="profiles/30-despatchadvice/">- Peppol BIS Despatch Advice 3.1</Documentation>-->
+<!--    <Documentation path="profiles/18-punchout/">- Peppol BIS Punch Out 3.1</Documentation>-->
     <Documentation path="profiles/42-orderagreement/">- Peppol BIS Order Agreement 3.0</Documentation>
-    <Documentation path="profiles/36-mlr/">- Peppol BIS Message Level Response 3.0</Documentation>
+<!--    <Documentation path="profiles/36-mlr/">- Peppol BIS Message Level Response 3.0</Documentation>-->
     <Documentation path="profiles/63-invoiceresponse/">- Peppol BIS Invoice Response 3.1</Documentation>
     <!-- <Documentation path="work/">Overview and processing of alignments</Documentation> -->
     <!-- <Documentation path="review/">Review of alignments</Documentation> -->
@@ -37,31 +37,31 @@
         <Path>structure/syntax/ubl-orderagreement.xml</Path>
         <Title>Peppol Order Agreement transaction 3.0 (T110)</Title>
     </Resource>
-    <Resource>
+<!--    <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-catalogue.xml</Path>
         <Title>Peppol Catalogue transaction 3.1 (T19)</Title>
-    </Resource>
-    <Resource>
+    </Resource>-->
+<!--    <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-catalogue-response.xml</Path>
         <Title>Peppol Catalogue Response transaction 3.0 (T58)</Title>
-    </Resource>
-    <Resource>
+    </Resource>-->
+<!--    <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-despatch-advice.xml</Path>
         <Title>Peppol Despatch Advice transaction 3.1 (T16)</Title>
-    </Resource>
-    <Resource>
+    </Resource>-->
+<!--    <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-shoppingcart.xml</Path>
         <Title>Peppol Punch Out transaction 3.1 (T77)</Title>
-    </Resource>
-    <Resource>
+    </Resource>-->
+<!--    <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-mlr.xml</Path>
         <Title>Peppol Message Level Response 3.0 (T71)</Title>
-    </Resource>
+    </Resource>-->
     <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-invoiceresponse.xml</Path>
@@ -80,30 +80,30 @@
         <Path>rules/sch/parts/PEPPOL-M-T01.sch</Path>
         <Title>Business rules for Peppol Order transaction 3.0 </Title>
     </Resource>
-    <Resource>
+<!--    <Resource>
         <Identifier>T16</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T16.sch</Path>
         <Title>Business rules for Peppol Despatch Advice transaction 3.0</Title>
-    </Resource>
-    <Resource>
+    </Resource>-->
+<!--    <Resource>
         <Identifier>T19</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T19.sch</Path>
         <Title>Business rules for Peppol Catalogue transaction 3.0</Title>
-    </Resource>
+    </Resource>-->
     <Resource>
         <Identifier>T76</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T76.sch</Path>
         <Title>Business rules for Peppol Order Response transaction 3.0</Title>
     </Resource>
-    <Resource>
+<!--    <Resource>
         <Identifier>T77</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T77.sch</Path>
         <Title>Business rules for Peppol Punch Out transaction 3.0</Title>
-    </Resource>
+    </Resource>-->
     <Resource>
         <Identifier>T110</Identifier>
         <Type>native:Schematron</Type>
