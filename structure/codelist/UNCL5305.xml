@@ -5,8 +5,74 @@
     <Identifier>UNCL5305</Identifier>
     <Version>D.17A</Version>
     <Agency>UN/CEFACT</Agency>
-    <Subset>OpenPEPPOL</Subset>
+    <Subset>OpenPEPPOL, IMDA</Subset>
 
+    <Code>
+        <Id>SR</Id>
+        <Name>Standard rated</Name>
+        <Description>Local supply of goods and services</Description>
+    </Code>
+	
+    <Code>
+        <Id>SRCA-S</Id>
+        <Name>Standard rated</Name>
+        <Description>Customer accounting supply made by the supplier</Description>
+    </Code>
+
+    <Code>
+        <Id>SRCA-C</Id>
+        <Name>Standard rate</Name>
+        <Description>Customer accounting supply made by the customer on supplier’s behalf</Description>
+    </Code>
+	
+    <Code>
+        <Id>ZR</Id>
+        <Name>Zero rated</Name>
+        <Description>Supplies involving goods for export/ provision of international services</Description>
+    </Code>
+	
+    <Code>
+        <Id>ES33</Id>
+        <Name>Exempt</Name>
+        <Description>CSpecific categories of exempt supplies listed under regulation 33 of the GST (General) Regulations</Description>
+    </Code>
+	
+     <Code>
+        <Id>ESN33</Id>
+        <Name>Exempt</Name>
+        <Description>Exempt supplies other than those listed under regulation 33 of the GST (General) Regulations</Description>
+    </Code>
+	
+     <Code>
+        <Id>DS</Id>
+        <Name>Deemed supplies</Name>
+        <Description>Supplies required to be reported pursuant to the GST legislation</Description>
+    </Code>
+    
+    <Code>
+        <Id>OS</Id>
+        <Name>Out-of-Scope supplies</Name>
+        <Description>Supplies outside the scope of the GST Act</Description>
+    </Code>
+    
+    <Code>
+        <Id>NG</Id>
+        <Name>Supplies from Non GST registered company</Name>
+        <Description>Supplies from a company which is not registered for GST</Description>
+    </Code>
+	
+	<Code>
+        <Id>SROVR</Id>
+        <Name>Overseas Vendor Registration, digital services</Name>
+        <Description>Overseas vendor registration regime for Business-to-Consumer (“B2C”) supplies of imported digital services</Description>
+    </Code>
+	
+	<Code>
+        <Id>SRRC</Id>
+        <Name>Reverse Charge</Name>
+        <Description>Reverse charge regime for Business-to-Business (“B2B”) supplies of imported services</Description>
+    </Code>
+<!--
     <Code>
         <Id>AE</Id>
         <Name>Vat Reverse Charge</Name>
@@ -73,4 +139,5 @@
             the transfer of immovable property located in the cities
             of Ceuta and Melilla.</Description>
     </Code>
+	-->
 </CodeList>

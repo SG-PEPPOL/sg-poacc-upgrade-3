@@ -133,14 +133,18 @@
         <Type>CodeList-1</Type>
         <Path>structure/codelist/TrueFalse.xml</Path>
     </Resource>
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/ActionCode_header.xml</Path>
     </Resource>
+	-->
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/ActionCode_line.xml</Path>
     </Resource>
+	-->
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL7161.xml</Path>
@@ -242,15 +246,15 @@
         <Type>native:File</Type>
         <Path>project.xml</Path>
         <Title>Example files (Appendix A)</Title>
-        <Property key="download">PEPPOLBIS-Examples.zip</Property>
-        <Property key="filename">PEPPOLBIS-Examples.zip</Property>
+        <Property key="download">SG-PEPPOLBIS-Examples.zip</Property>
+        <Property key="filename">SG-PEPPOLBIS-Examples.zip</Property>
     </Resource>
     <Resource>
         <Type>native:File</Type>
         <Path>project.xml</Path>
         <Title>Schematron files</Title>
-        <Property key="download">PEPPOLBIS-Upgrade-Schematron.zip</Property>
-        <Property key="filename">PEPPOLBIS-Upgrade-Schematron.zip</Property>
+        <Property key="download">SG-PEPPOLBIS-Upgrade-Schematron.zip</Property>
+        <Property key="filename">SG-PEPPOLBIS-Upgrade-Schematron.zip</Property>
     </Resource>
     <!-- Namespaces -->
     <Resource>
