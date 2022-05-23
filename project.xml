@@ -95,25 +95,25 @@
         <Path>rules/sch/parts/PEPPOL-M-T19.sch</Path>
         <Title>Business rules for Peppol Catalogue transaction 3.0</Title>
     </Resource>-->
-    <Resource>
+<!--    <Resource>
         <Identifier>T76</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T76.sch</Path>
         <Title>Business rules for Peppol Order Response transaction 3.0</Title>
-    </Resource>
+    </Resource>-->
 <!--    <Resource>
         <Identifier>T77</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T77.sch</Path>
         <Title>Business rules for Peppol Punch Out transaction 3.0</Title>
     </Resource>-->
-    <Resource>
+<!--    <Resource>
         <Identifier>T110</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T110.sch</Path>
         <Title>Business rules for Peppol Order Agreement transaction 3.0</Title>
     </Resource>
-    <Resource>
+-->    <Resource>
         <Identifier>T111</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T111.sch</Path>
