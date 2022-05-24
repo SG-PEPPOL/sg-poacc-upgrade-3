@@ -23,7 +23,7 @@ The clarification may further give the instructions regarding actions expected f
 To assist with resolution the Buyer might want to provide instructions on what is the correct data.
 
 
-.UBL example where TAX is VAT:
+.UBL example where the TAX reference is missing:
 [source, xml]
 ----
 <cac:DocumentResponse>
@@ -33,10 +33,10 @@ To assist with resolution the Buyer might want to provide instructions on what i
 
       <cac:Status>
         <cbc:StatusReasonCode listID="OPStatusReason">LEG</cbc:StatusReasonCode> <2>
-        <cbc:StatusReason>VAT Reference not found</cbc:StatusReason> <3>
+        <cbc:StatusReason>TAX Reference not found</cbc:StatusReason> <3>
         <cac:Condition>
           <cbc:AttributeID>BT-48</cbc:AttributeID> <4>
-          <cbc:Description>EU123456789</cbc:Description> <5>
+          <cbc:Description>taxid123456789</cbc:Description> <5>
         </cac:Condition>
       </cac:Status>
 
