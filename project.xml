@@ -264,8 +264,8 @@
         <Type>native:File</Type>
         <Path>project.xml</Path>
         <Title>Example files (Appendix A)</Title>
-        <Property key="download">SG-PEPPOLBIS-Examples.zip</Property>
-        <Property key="filename">SG-PEPPOLBIS-Examples.zip</Property>
+        <Property key="download">SG-PEPPOLBIS-eDocs-Examples.zip</Property>
+        <Property key="filename">SG-PEPPOLBIS-eDocs-Examples.zip</Property>
     </Resource>
     <Resource>
         <Type>native:File</Type>
