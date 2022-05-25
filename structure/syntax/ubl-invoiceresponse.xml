@@ -193,7 +193,7 @@
                         <Name>Scheme identifier</Name>
                         <Description>Scheme identifier for party identification</Description>
                         <Reference type="CODE_LIST">ICD</Reference>
-                        <Value type="EXAMPLE">0192</Value>
+                        <Value type="EXAMPLE">0195</Value>
                     </Attribute>
                     <Value type="EXAMPLE">987654321</Value>
                 </Element>
@@ -352,7 +352,7 @@
                             <Name>Scheme identifier</Name>
                             <Description>Scheme identifier for party identification</Description>
                             <Reference type="CODE_LIST">ICD</Reference>
-                            <Value type="EXAMPLE">0192</Value>
+                            <Value type="EXAMPLE">0195</Value>
                         </Attribute>
 
                         <Value type="EXAMPLE">987654321</Value>
@@ -393,7 +393,7 @@
                             <Name>Scheme identifier</Name>
                             <Description>Scheme identifier for party identification</Description>
                             <Reference type="CODE_LIST">ICD</Reference>
-                            <Value type="EXAMPLE">0192</Value>
+                            <Value type="EXAMPLE">0195</Value>
                         </Attribute>
 
                         <Value type="EXAMPLE">999888777</Value>
