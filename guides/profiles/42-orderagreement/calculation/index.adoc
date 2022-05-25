@@ -2,7 +2,7 @@
 
 :leveloffset: +1
 
-include::../../../shared/files/calculation/vat-calc.adoc[]
+include::../../../shared/files/calculation/TAX-calc.adoc[]
 
 include::totals.adoc[]
 
