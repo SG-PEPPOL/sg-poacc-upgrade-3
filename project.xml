@@ -120,6 +120,7 @@
         <Title>Business rules for Peppol Invoice Response transaction 3.0</Title>
     </Resource>
     <!-- Code lists -->
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL1229.xml</Path>
@@ -136,6 +137,7 @@
         <Type>CodeList-1</Type>
         <Path>structure/codelist/TrueFalse.xml</Path>
     </Resource>
+	-->
 	<!--
     <Resource>
         <Type>CodeList-1</Type>
@@ -148,14 +150,18 @@
         <Path>structure/codelist/ActionCode_line.xml</Path>
     </Resource>
 	-->
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL7161.xml</Path>
     </Resource>
+	-->
+	
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/ClarificationListID.xml</Path>
     </Resource>
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/ISO3166-1_Alpha2.xml</Path>
@@ -168,14 +174,17 @@
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL8273.xml</Path>
     </Resource>
+	-->
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL1001.xml</Path>
     </Resource>
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL5305.xml</Path>
     </Resource>
+	-->
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/eas.xml</Path>
@@ -193,6 +202,7 @@
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL4343-T111.xml</Path>
     </Resource>
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL7143.xml</Path>
@@ -201,6 +211,7 @@
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL6313.xml</Path>
     </Resource>
+	-->
 <!--    <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL6313-T16.xml</Path>
@@ -218,6 +229,7 @@
         <Path>structure/codelist/UNCL1001_T01.xml</Path>
     </Resource>
 -->
+<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/GS17009.xml</Path>
@@ -234,6 +246,7 @@
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNECERec21-9e.xml</Path>
     </Resource>
+-->
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/OPStatusAction.xml</Path>
@@ -251,21 +264,22 @@
         <Type>native:File</Type>
         <Path>project.xml</Path>
         <Title>Example files (Appendix A)</Title>
-        <Property key="download">SG-PEPPOLBIS-Examples.zip</Property>
-        <Property key="filename">SG-PEPPOLBIS-Examples.zip</Property>
+        <Property key="download">SG-PEPPOLBIS-eDocs-Examples.zip</Property>
+        <Property key="filename">SG-PEPPOLBIS-eDocs-Examples.zip</Property>
     </Resource>
     <Resource>
         <Type>native:File</Type>
         <Path>project.xml</Path>
         <Title>Schematron files</Title>
-        <Property key="download">SG-PEPPOLBIS-Upgrade-Schematron.zip</Property>
-        <Property key="filename">SG-PEPPOLBIS-Upgrade-Schematron.zip</Property>
+        <Property key="download">SG-PEPPOLBIS-eDocs-Schematron.zip</Property>
+        <Property key="filename">SG-PEPPOLBIS-eDocs-Schematron.zip</Property>
     </Resource>
     <!-- Namespaces -->
     <Resource>
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-application-response.xml</Path>
     </Resource>
+<!--
     <Resource>
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-catalogue.xml</Path>
@@ -282,6 +296,7 @@
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-order-response.xml</Path>
     </Resource>
+-->	
     <Resource>
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-cac.xml</Path>
