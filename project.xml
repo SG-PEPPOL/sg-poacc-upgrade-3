@@ -2,7 +2,7 @@
 <Project xmlns="urn:fdc:difi.no:2017:vefa:structure:Project-1">
     <Name>SG Peppol BIS eDocs</Name>
     <!-- Introduction -->
-<Documentation path="../">Back to peppolguide.sg</Documentation>
+<Documentation path="../">Back to www.peppolguide.sg</Documentation>
     <!-- BIS documents -->
     <Documentation path="">BIS DOCUMENTS</Documentation>
 <!--    <Documentation path="profiles/3-order-only/">- Peppol BIS Order only 3.2</Documentation>-->
@@ -14,6 +14,7 @@
 <!--    <Documentation path="profiles/42-orderagreement/">- Peppol BIS Order Agreement 3.0</Documentation>-->
 <!--    <Documentation path="profiles/36-mlr/">- Peppol BIS Message Level Response 3.0</Documentation>-->
     <Documentation path="profiles/63-invoiceresponse/">- Peppol BIS Invoice Response 3.1</Documentation>
+	<Documentation path="introduction/">About these specifications</Documentation>
     <!-- <Documentation path="work/">Overview and processing of alignments</Documentation> -->
     <!-- <Documentation path="review/">Review of alignments</Documentation> -->
     <!-- <Documentation path="methodology/schematron/">Schematron guideline</Documentation> -->
@@ -271,6 +272,13 @@
         <Property key="download">SG-PEPPOLBIS-eDocs-Schematron.zip</Property>
         <Property key="filename">SG-PEPPOLBIS-eDocs-Schematron.zip</Property>
     </Resource>
+    <Resource>
+        <Type>native:File</Type>
+        <Path>project.xml</Path>
+        <Title>Schematron files</Title>
+        <Property key="download">../billing/SG-PEPPOLBIS-eDocs-Stylesheet.zip</Property>
+        <Property key="filename">SG-PEPPOLBIS-eDocs-Stylesheet.zip</Property>
+    </Resource>	
     <!-- Namespaces -->
     <Resource>
         <Type>Namespace-1</Type>

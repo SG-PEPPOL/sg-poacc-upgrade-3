@@ -1,0 +1,31 @@
+= About to thess specifications
+
+These specifications consists of several components which can be accessed on this website. Here follows a short introduction of each part and its purpose. They can all be accessed from the main page.
+
+== Peppol BIS Invoice Response 3.1
+The main documentation which describes the functionality and business process supported. It gives a high level view but goes also into selected parts of the business message describing common examples, datatypes and code lists.
+
+[NOTE]
+====
+It should be noted that this specification is technically an republication of the same specification published by OpenPeppol with a few non-normative examples that shows typical values used in Singapore. The schematron rules are also republished but in an unlikely event of discrepencies, the OpenPeppol schematron is to be considered normative.
+====
+
+== Syntax
+An description of each XML element and attribute in the technical format used to represent the business document 
+
+== Rules
+Many business rules described in this specification can be automatically evaluated using Schematron. The rules are organized and divided into three files:
+
+== Codelists
+Links to each code list being used in the specification. 
+
+== Downloads - Schematron files
+A zip-file containing the three groups of schematron rules.
+
+== Downloads - Presentation stylesheet
+A zip-file containing the visualization stylesheet which can be used to present the eInvoice in a human-readable form.
+
+== Downloads - Example files
+A zip-file containing example files which illustrates common situations.
+ 
+
