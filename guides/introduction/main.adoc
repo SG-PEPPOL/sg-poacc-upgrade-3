@@ -7,7 +7,7 @@ The main documentation which describes the functionality and business process su
 
 [NOTE]
 ====
-It should be noted that this specification is technically an republication of the same specification published by OpenPeppol with a few non-normative examples that shows typical values used in Singapore. The schematron rules are also republished but in an unlikely event of discrepencies, the OpenPeppol schematron is to be considered normative.
+It should be noted that this specification is a re-publication of the same specification published by OpenPeppol with a few customized non-normative examples that shows typical values used in Singapore. The schematron rules are also re-published. In the unlikely event of discrepencies, the OpenPeppol schematron is to be considered normative.
 ====
 
 == Syntax
