@@ -272,12 +272,13 @@
         <Property key="download">SG-PEPPOLBIS-eDocs-Schematron.zip</Property>
         <Property key="filename">SG-PEPPOLBIS-eDocs-Schematron.zip</Property>
     </Resource>
+	
     <Resource>
         <Type>native:File</Type>
         <Path>project.xml</Path>
-        <Title>Schematron files</Title>
-        <Property key="download">../billing/SG-PEPPOLBIS-eDocs-Stylesheet.zip</Property>
-        <Property key="filename">SG-PEPPOLBIS-eDocs-Stylesheet.zip</Property>
+        <Title>Presentation stylesheets</Title>
+        <Property key="download">../billing/files/SG-PEPPOLBIS-eDocs-Stylesheet.zip</Property>
+        <Property key="filename">../billing/files/SG-PEPPOLBIS-eDocs-Stylesheet.zip</Property>
     </Resource>	
     <!-- Namespaces -->
     <Resource>
