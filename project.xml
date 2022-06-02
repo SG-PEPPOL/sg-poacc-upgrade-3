@@ -2,10 +2,10 @@
 <Project xmlns="urn:fdc:difi.no:2017:vefa:structure:Project-1">
     <Name>SG Peppol BIS eDocs</Name>
     <!-- Introduction -->
-<!--    <Documentation path="">INTRODUCTION</Documentation>
+<Documentation path="">INTRODUCTION</Documentation>
     <Documentation path="compliance/">BIS compliance</Documentation>
     <Documentation path="release-notes/">Release notes</Documentation>
-    <Documentation path="changes/">- Overview of alignments</Documentation>-->
+    <Documentation path="changes/">- Overview of alignments</Documentation>
     <!-- BIS documents -->
     <Documentation path="">BIS DOCUMENTS</Documentation>
 <!--    <Documentation path="profiles/3-order-only/">- Peppol BIS Order only 3.2</Documentation>-->
