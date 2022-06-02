@@ -5,10 +5,9 @@ These specifications consists of several components which can be accessed on thi
 == Peppol BIS Invoice Response 3.1
 The main documentation which describes the functionality and business process supported. It gives a high level view but goes also into selected parts of the business message describing common examples, datatypes and code lists.
 
-[NOTE]
-====
-It should be noted that this specification is a re-publication of the same specification published by OpenPeppol with a few customized non-normative examples that shows typical values used in Singapore. The schematron rules are also re-published. In the unlikely event of discrepencies, the OpenPeppol schematron is to be considered normative.
-====
+****
+NOTE:It should be noted that this specification is a re-publication of the same specification published by OpenPeppol with a few customized non-normative examples that shows typical values used in Singapore. The schematron rules are also re-published. In the unlikely event of discrepencies, the OpenPeppol schematron is to be considered normative.
+****
 
 == Syntax
 An description of each XML element and attribute in the technical format used to represent the business document 
