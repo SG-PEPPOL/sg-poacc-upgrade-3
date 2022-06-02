@@ -277,8 +277,8 @@
         <Type>native:File</Type>
         <Path>project.xml</Path>
         <Title>Presentation stylesheets</Title>
-        <Property key="download">../../billing/files/SG-PEPPOLBIS-eDocs-Stylesheet.zip</Property>
-        <Property key="filename">../../billing/files/SG-PEPPOLBIS-eDocs-Stylesheet.zip</Property>
+        <Property key="download">../../billing/files/SG-BIS-eDoc-Stylesheet.zip</Property>
+        <Property key="filename">../../billing/files/SG-BIS-eDoc-Stylesheet.zip</Property>
     </Resource>	
     <!-- Namespaces -->
     <Resource>
