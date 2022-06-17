@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project xmlns="urn:fdc:difi.no:2017:vefa:structure:Project-1">
-    <Name>SG Peppol BIS eDocs version 3</Name>
+    <Name>SG Peppol BIS eDocs</Name>
     <!-- Introduction -->
-    <Documentation path="">INTRODUCTION</Documentation>
-    <Documentation path="compliance/">BIS compliance</Documentation>
-    <Documentation path="release-notes/">Release notes</Documentation>
-    <Documentation path="changes/">- Overview of alignments</Documentation>
+<Documentation path="../">Back to www.peppolguide.sg</Documentation>
     <!-- BIS documents -->
-    <Documentation path="">BIS DOCUMENTS</Documentation>
+<!--    <Documentation path="">BIS DOCUMENTS</Documentation>-->
 <!--    <Documentation path="profiles/3-order-only/">- Peppol BIS Order only 3.2</Documentation>-->
-    <Documentation path="profiles/28-ordering/">- Peppol BIS Ordering 3.2</Documentation>
+<!--    <Documentation path="profiles/28-ordering/">- Peppol BIS Ordering 3.2</Documentation>-->
 <!--    <Documentation path="profiles/1-catalogueonly/">- Peppol BIS Catalogue with response 3.1</Documentation>-->
 <!--    <Documentation path="profiles/64-catalogue-wo-response/">- Peppol BIS Catalogue without response 3.1</Documentation>-->
 <!--    <Documentation path="profiles/30-despatchadvice/">- Peppol BIS Despatch Advice 3.1</Documentation>-->
 <!--    <Documentation path="profiles/18-punchout/">- Peppol BIS Punch Out 3.1</Documentation>-->
-    <Documentation path="profiles/42-orderagreement/">- Peppol BIS Order Agreement 3.0</Documentation>
+<!--    <Documentation path="profiles/42-orderagreement/">- Peppol BIS Order Agreement 3.0</Documentation>-->
 <!--    <Documentation path="profiles/36-mlr/">- Peppol BIS Message Level Response 3.0</Documentation>-->
-    <Documentation path="profiles/63-invoiceresponse/">- Peppol BIS Invoice Response 3.1</Documentation>
+    <Documentation path="profiles/63-invoiceresponse/">Peppol BIS Invoice Response 3.1</Documentation>
+	<Documentation path="introduction/">About these specifications</Documentation>
     <!-- <Documentation path="work/">Overview and processing of alignments</Documentation> -->
     <!-- <Documentation path="review/">Review of alignments</Documentation> -->
     <!-- <Documentation path="methodology/schematron/">Schematron guideline</Documentation> -->
     <!-- <Documentation path="work/rules/">Automatic/manual rules</Documentation> -->
     <!-- Syntax -->
-    <Resource>
+<!--    <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-order.xml</Path>
         <Title>Peppol Order transaction 3.2 (T01)</Title>
@@ -37,6 +35,7 @@
         <Path>structure/syntax/ubl-orderagreement.xml</Path>
         <Title>Peppol Order Agreement transaction 3.0 (T110)</Title>
     </Resource>
+-->
 <!--    <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-catalogue.xml</Path>
@@ -74,12 +73,14 @@
         <Path>rules/sch/parts/common.sch</Path>
         <Title>Common rules</Title>
     </Resource>
+<!--
     <Resource>
         <Identifier>T01</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T01.sch</Path>
         <Title>Business rules for Peppol Order transaction 3.0 </Title>
     </Resource>
+-->
 <!--    <Resource>
         <Identifier>T16</Identifier>
         <Type>native:Schematron</Type>
@@ -92,31 +93,32 @@
         <Path>rules/sch/parts/PEPPOL-M-T19.sch</Path>
         <Title>Business rules for Peppol Catalogue transaction 3.0</Title>
     </Resource>-->
-    <Resource>
+<!--    <Resource>
         <Identifier>T76</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T76.sch</Path>
         <Title>Business rules for Peppol Order Response transaction 3.0</Title>
-    </Resource>
+    </Resource>-->
 <!--    <Resource>
         <Identifier>T77</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T77.sch</Path>
         <Title>Business rules for Peppol Punch Out transaction 3.0</Title>
     </Resource>-->
-    <Resource>
+<!--    <Resource>
         <Identifier>T110</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T110.sch</Path>
         <Title>Business rules for Peppol Order Agreement transaction 3.0</Title>
     </Resource>
-    <Resource>
+-->    <Resource>
         <Identifier>T111</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T111.sch</Path>
-        <Title>Business rules for Peppol Invoice Response transaction 3.0</Title>
+        <Title>Business rules for Peppol Invoice Response transaction 3.1</Title>
     </Resource>
     <!-- Code lists -->
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL1229.xml</Path>
@@ -133,6 +135,7 @@
         <Type>CodeList-1</Type>
         <Path>structure/codelist/TrueFalse.xml</Path>
     </Resource>
+	-->
 	<!--
     <Resource>
         <Type>CodeList-1</Type>
@@ -145,14 +148,18 @@
         <Path>structure/codelist/ActionCode_line.xml</Path>
     </Resource>
 	-->
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL7161.xml</Path>
     </Resource>
+	-->
+	
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/ClarificationListID.xml</Path>
     </Resource>
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/ISO3166-1_Alpha2.xml</Path>
@@ -165,14 +172,17 @@
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL8273.xml</Path>
     </Resource>
+	-->
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL1001.xml</Path>
     </Resource>
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL5305.xml</Path>
     </Resource>
+	-->
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/eas.xml</Path>
@@ -181,14 +191,16 @@
         <Type>CodeList-1</Type>
         <Path>structure/codelist/ICD.xml</Path>
     </Resource>
-    <Resource>
+<!--    <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/Image.xml</Path>
     </Resource>
+-->
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL4343-T111.xml</Path>
     </Resource>
+	<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL7143.xml</Path>
@@ -197,22 +209,25 @@
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL6313.xml</Path>
     </Resource>
-    <Resource>
+	-->
+<!--    <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL6313-T16.xml</Path>
-    </Resource>
-    <Resource>
+    </Resource>-->
+<!--    <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/MimeCode.xml</Path>
-    </Resource>
-    <Resource>
+    </Resource>-->
+<!--    <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL4343-T76.xml</Path>
-    </Resource>
-    <Resource>
+    </Resource>-->
+<!--    <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL1001_T01.xml</Path>
     </Resource>
+-->
+<!--
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/GS17009.xml</Path>
@@ -229,6 +244,7 @@
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNECERec21-9e.xml</Path>
     </Resource>
+-->
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/OPStatusAction.xml</Path>
@@ -246,21 +262,30 @@
         <Type>native:File</Type>
         <Path>project.xml</Path>
         <Title>Example files (Appendix A)</Title>
-        <Property key="download">SG-PEPPOLBIS-Examples.zip</Property>
-        <Property key="filename">SG-PEPPOLBIS-Examples.zip</Property>
+        <Property key="download">SG-PEPPOLBIS-eDocs-Examples.zip</Property>
+        <Property key="filename">SG-PEPPOLBIS-eDocs-Examples.zip</Property>
     </Resource>
     <Resource>
         <Type>native:File</Type>
         <Path>project.xml</Path>
         <Title>Schematron files</Title>
-        <Property key="download">SG-PEPPOLBIS-Upgrade-Schematron.zip</Property>
-        <Property key="filename">SG-PEPPOLBIS-Upgrade-Schematron.zip</Property>
+        <Property key="download">SG-PEPPOLBIS-eDocs-Schematron.zip</Property>
+        <Property key="filename">SG-PEPPOLBIS-eDocs-Schematron.zip</Property>
     </Resource>
+	
+    <Resource>
+        <Type>native:File</Type>
+        <Path>project.xml</Path>
+        <Title>Presentation stylesheets</Title>
+        <Property key="download">../../billing/files/SG-BIS-eDoc-Stylesheet.zip</Property>
+        <Property key="filename">../../billing/files/SG-BIS-eDoc-Stylesheet.zip</Property>
+    </Resource>	
     <!-- Namespaces -->
     <Resource>
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-application-response.xml</Path>
     </Resource>
+<!--
     <Resource>
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-catalogue.xml</Path>
@@ -277,6 +302,7 @@
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-order-response.xml</Path>
     </Resource>
+-->	
     <Resource>
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-cac.xml</Path>

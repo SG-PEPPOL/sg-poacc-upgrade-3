@@ -11,7 +11,7 @@
 	<cbc:IssueTime>12:30:00</cbc:IssueTime>
 	<cbc:OrderTypeCode>220</cbc:OrderTypeCode>
 	<cbc:Note>Information text for the whole order</cbc:Note>
-	<cbc:DocumentCurrencyCode>NOK</cbc:DocumentCurrencyCode>
+	<cbc:DocumentCurrencyCode>SGD</cbc:DocumentCurrencyCode>
 	<cbc:CustomerReference>9000012345</cbc:CustomerReference>
 	<cbc:AccountingCost>Project123</cbc:AccountingCost>
 	<cac:ValidityPeriod>
@@ -48,92 +48,78 @@
 	</cac:Contract>
 	<cac:BuyerCustomerParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="0192">987654325</cbc:EndpointID>
+			<cbc:EndpointID schemeID="0195">SGUEN200254321Z</cbc:EndpointID>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0088">7300010000001</cbc:ID>
+				<cbc:ID schemeID="0088">5790000435968</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>Helseforetak</cbc:Name>
+				<cbc:Name>Buyer trade name</cbc:Name>
 			</cac:PartyName>
 			<cac:PostalAddress>
-				<cbc:StreetName>Sinsenveien 40</cbc:StreetName>
-				<cbc:AdditionalStreetName>Oppgang B</cbc:AdditionalStreetName>
-				<cbc:CityName>Oslo</cbc:CityName>
-				<cbc:PostalZone>0501</cbc:PostalZone>
-				<cbc:CountrySubentity>Region</cbc:CountrySubentity>
+				<cbc:StreetName>Central road 56</cbc:StreetName>
+				<cbc:AdditionalStreetName>Second floor</cbc:AdditionalStreetName>
+				<cbc:CityName>Singapore</cbc:CityName>
+				<cbc:PostalZone>101</cbc:PostalZone>
+				<cbc:CountrySubentity>Singapore</cbc:CountrySubentity>
 				<cac:AddressLine>
-					<cbc:Line>Address Line 3</cbc:Line>
+					<cbc:Line>Accounting department</cbc:Line>
 				</cac:AddressLine>
 				<cac:Country>
-					<cbc:IdentificationCode>NO</cbc:IdentificationCode>
+					<cbc:IdentificationCode>SG</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyTaxScheme>
 				<cbc:CompanyID>NO9311867455MVA</cbc:CompanyID>
 				<cac:TaxScheme>
-					<cbc:ID>VAT</cbc:ID>
+					<cbc:ID>SGD</cbc:ID>
 				</cac:TaxScheme>
 			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>Helseforetak AS</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="0082">931186755</cbc:CompanyID>
-				<cac:RegistrationAddress>
-					<cbc:CityName>Oslo</cbc:CityName>
-					<cac:Country>
-						<cbc:IdentificationCode>NO</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:RegistrationAddress>
+				<cbc:RegistrationName>IMDA</cbc:RegistrationName>
 			</cac:PartyLegalEntity>
 			<cac:Contact>
-				<cbc:Name>Ole Olsen</cbc:Name>
-				<cbc:Telephone>23055000</cbc:Telephone>
-				<cbc:ElectronicMail>post@helseforetak.no</cbc:ElectronicMail>
+				<cbc:Name>Bill</cbc:Name>
+				<cbc:Telephone>5121230</cbc:Telephone>
+				<cbc:ElectronicMail>bill@imda.sg</cbc:ElectronicMail>
 			</cac:Contact>
 		</cac:Party>
 	</cac:BuyerCustomerParty>
 	<cac:SellerSupplierParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="0192">123456785</cbc:EndpointID>
+			<cbc:EndpointID schemeID="0195">SGUEN200212345Z</cbc:EndpointID>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0088">7300010000001</cbc:ID>
+				<cbc:ID schemeID="0088">5790000436040</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>Medical</cbc:Name>
+				<cbc:Name>Sales trade name</cbc:Name>
 			</cac:PartyName>
 			<cac:PostalAddress>
-				<cbc:StreetName>Storgt. 12</cbc:StreetName>
-				<cbc:AdditionalStreetName>4. etasje</cbc:AdditionalStreetName>
-				<cbc:CityName>Oslo</cbc:CityName>
-				<cbc:PostalZone>0585</cbc:PostalZone>
-				<cbc:CountrySubentity>Region</cbc:CountrySubentity>
+				<cbc:StreetName>Mainstreet 112</cbc:StreetName>
+				<cbc:AdditionalStreetName>Building 3</cbc:AdditionalStreetName>
+				<cbc:CityName>Singapore</cbc:CityName>
+				<cbc:PostalZone>1000</cbc:PostalZone>
+				<cbc:CountrySubentity>Singapore</cbc:CountrySubentity>
 				<cac:AddressLine>
-					<cbc:Line>Address Line 3</cbc:Line>
+					<cbc:Line>Sales department</cbc:Line>
 				</cac:AddressLine>
 				<cac:Country>
-					<cbc:IdentificationCode>NO</cbc:IdentificationCode>
+					<cbc:IdentificationCode>SG</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:PostalAddress>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>Medical AS</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="0082">123456789</cbc:CompanyID>
-				<cac:RegistrationAddress>
-					<cbc:CityName>Oslo</cbc:CityName>
-					<cac:Country>
-						<cbc:IdentificationCode>NO</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:RegistrationAddress>
+				<cbc:RegistrationName>Gallery Photo Supplier</cbc:RegistrationName>
 			</cac:PartyLegalEntity>
 			<cac:Contact>
-				<cbc:Name>Nils Nilsen</cbc:Name>
-				<cbc:Telephone>22150510</cbc:Telephone>
-				<cbc:ElectronicMail>post@medical.no</cbc:ElectronicMail>
+				<cbc:Name>Avery Lee</cbc:Name>
+				<cbc:Telephone>4621230</cbc:Telephone>
+				<cbc:ElectronicMail>avery@salescompany.sg</cbc:ElectronicMail>
 			</cac:Contact>
 		</cac:Party>
 	</cac:SellerSupplierParty>
 	<cac:OriginatorCustomerParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0088">7300010000001</cbc:ID>
+				<cbc:ID schemeID="0088">5790000436095</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
 				<cbc:Name>Helseavdeling</cbc:Name>
@@ -147,58 +133,45 @@
 	</cac:OriginatorCustomerParty>
 	<cac:AccountingCustomerParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="0192">987654325</cbc:EndpointID>
+			<cbc:EndpointID schemeID="0195">SGUEN200256789Z</cbc:EndpointID>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0088">7300010000001</cbc:ID>
+				<cbc:ID schemeID="0088">5790000436118</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>Accounting</cbc:Name>
+				<cbc:Name>IMDA accounts</cbc:Name>
 			</cac:PartyName>
 			<cac:PostalAddress>
-				<cbc:StreetName>Sinsenveien 42</cbc:StreetName>
-				<cbc:AdditionalStreetName>Oppgang A</cbc:AdditionalStreetName>
-				<cbc:CityName>Oslo</cbc:CityName>
-				<cbc:PostalZone>0501</cbc:PostalZone>
-				<cbc:CountrySubentity>Region</cbc:CountrySubentity>
+				<cbc:StreetName>Main square</cbc:StreetName>
+				<cbc:AdditionalStreetName>Top floor</cbc:AdditionalStreetName>
+				<cbc:CityName>Singapore</cbc:CityName>
+				<cbc:PostalZone>501</cbc:PostalZone>
+				<cbc:CountrySubentity>Singapore</cbc:CountrySubentity>
 				<cac:AddressLine>
-					<cbc:Line>Address Line 3</cbc:Line>
+					<cbc:Line>Accounts payable</cbc:Line>
 				</cac:AddressLine>
 				<cac:Country>
-					<cbc:IdentificationCode>NO</cbc:IdentificationCode>
+					<cbc:IdentificationCode>SG</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:PostalAddress>
-			<cac:PartyTaxScheme>
-				<cbc:CompanyID>NO9311867455MVA</cbc:CompanyID>
-				<cac:TaxScheme>
-					<cbc:ID>VAT</cbc:ID>
-				</cac:TaxScheme>
-			</cac:PartyTaxScheme>
 			<cac:PartyLegalEntity>
-				<cbc:RegistrationName>Helseforetak AS</cbc:RegistrationName>
-				<cbc:CompanyID schemeID="0082">931186723</cbc:CompanyID>
-				<cac:RegistrationAddress>
-					<cbc:CityName>Oslo</cbc:CityName>
-					<cac:Country>
-						<cbc:IdentificationCode>NO</cbc:IdentificationCode>
-					</cac:Country>
-				</cac:RegistrationAddress>
+				<cbc:RegistrationName>IMDA accounts</cbc:RegistrationName>
 			</cac:PartyLegalEntity>
 		</cac:Party>
 	</cac:AccountingCustomerParty>
 	<cac:Delivery>
 		<cac:DeliveryLocation>
-			<cbc:ID schemeID="0088">7300010000001</cbc:ID>
+			<cbc:ID schemeID="0088">5790000435944</cbc:ID>
 			<cac:Address>
-				<cbc:StreetName>Solheimsveien 10</cbc:StreetName>
-				<cbc:AdditionalStreetName>Add</cbc:AdditionalStreetName>
-				<cbc:CityName>Lørenskog</cbc:CityName>
-				<cbc:PostalZone>1473</cbc:PostalZone>
-				<cbc:CountrySubentity>Region</cbc:CountrySubentity>
+				<cbc:StreetName>Indistrial road</cbc:StreetName>
+				<cbc:AdditionalStreetName>Warhouse 15</cbc:AdditionalStreetName>
+				<cbc:CityName>Singapore</cbc:CityName>
+				<cbc:PostalZone>0201</cbc:PostalZone>
+				<cbc:CountrySubentity>Singapore</cbc:CountrySubentity>
 				<cac:AddressLine>
-					<cbc:Line>3rd Address line</cbc:Line>
+					<cbc:Line>Platform 8</cbc:Line>
 				</cac:AddressLine>
 				<cac:Country>
-					<cbc:IdentificationCode>NO</cbc:IdentificationCode>
+					<cbc:IdentificationCode>SG</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:DeliveryLocation>
@@ -211,12 +184,12 @@
 				<cbc:ID schemeID="0082">13691234</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyName>
-				<cbc:Name>Helseavdeling</cbc:Name>
+				<cbc:Name>Singapore shipping</cbc:Name>
 			</cac:PartyName>
 			<cac:Contact>
-				<cbc:Name>Ole</cbc:Name>
+				<cbc:Name>Cedric Ong</cbc:Name>
 				<cbc:Telephone>987098709</cbc:Telephone>
-				<cbc:ElectronicMail>ole@helseforetak.no</cbc:ElectronicMail>
+				<cbc:ElectronicMail>cedric@imda.sg</cbc:ElectronicMail>
 			</cac:Contact>
 		</cac:DeliveryParty>
 	</cac:Delivery>
@@ -224,7 +197,7 @@
 		<cbc:ID>FOB</cbc:ID>
 		<cbc:SpecialTerms>CAD</cbc:SpecialTerms>
 		<cac:DeliveryLocation>
-			<cbc:ID>FOB Oslo</cbc:ID>
+			<cbc:ID>FOB Singapore</cbc:ID>
 		</cac:DeliveryLocation>
 	</cac:DeliveryTerms>
 	<cac:PaymentTerms>
@@ -234,12 +207,12 @@
 		<cbc:ChargeIndicator>true</cbc:ChargeIndicator>
 		<cbc:AllowanceChargeReasonCode>ABK</cbc:AllowanceChargeReasonCode>
 		<cbc:AllowanceChargeReason>Miscellaneous services</cbc:AllowanceChargeReason>
-		<cbc:Amount currencyID="NOK">400.00</cbc:Amount>
+		<cbc:Amount currencyID="SGD">400.00</cbc:Amount>
 		<cac:TaxCategory>
 			<cbc:ID>Z</cbc:ID>
 			<cbc:Percent>0</cbc:Percent>
 			<cac:TaxScheme>
-				<cbc:ID>VAT</cbc:ID>
+				<cbc:ID>GST</cbc:ID>
 			</cac:TaxScheme>
 		</cac:TaxCategory>
 	</cac:AllowanceCharge>
@@ -248,35 +221,35 @@
 		<cbc:AllowanceChargeReasonCode>95</cbc:AllowanceChargeReasonCode>
 		<cbc:AllowanceChargeReason>Discount</cbc:AllowanceChargeReason>
 		<cbc:MultiplierFactorNumeric>10</cbc:MultiplierFactorNumeric>
-		<cbc:Amount currencyID="NOK">652.50</cbc:Amount>
-		<cbc:BaseAmount currencyID="NOK">6525.00</cbc:BaseAmount>
+		<cbc:Amount currencyID="SGD">652.50</cbc:Amount>
+		<cbc:BaseAmount currencyID="SGD">6525.00</cbc:BaseAmount>
 		<cac:TaxCategory>
-			<cbc:ID>S</cbc:ID>
-			<cbc:Percent>25</cbc:Percent>
+			<cbc:ID>SR</cbc:ID>
+			<cbc:Percent>7</cbc:Percent>
 			<cac:TaxScheme>
-				<cbc:ID>VAT</cbc:ID>
+				<cbc:ID>GST</cbc:ID>
 			</cac:TaxScheme>
 		</cac:TaxCategory>
 	</cac:AllowanceCharge>
 	<cac:TaxTotal>
-		<cbc:TaxAmount currencyID="NOK">100.00</cbc:TaxAmount>
+		<cbc:TaxAmount currencyID="SGD">502.43</cbc:TaxAmount>
 	</cac:TaxTotal>
 	<cac:AnticipatedMonetaryTotal>
-		<cbc:LineExtensionAmount currencyID="NOK">6525.00</cbc:LineExtensionAmount>
-		<cbc:TaxExclusiveAmount currencyID="NOK">6272.50</cbc:TaxExclusiveAmount>
-		<cbc:TaxInclusiveAmount currencyID="NOK">6372.50</cbc:TaxInclusiveAmount>
-		<cbc:AllowanceTotalAmount currencyID="NOK">652.50</cbc:AllowanceTotalAmount>
-		<cbc:ChargeTotalAmount currencyID="NOK">400.00</cbc:ChargeTotalAmount>
-		<cbc:PrepaidAmount currencyID="NOK">10.00</cbc:PrepaidAmount>
-		<cbc:PayableRoundingAmount currencyID="NOK">0.50</cbc:PayableRoundingAmount>
-		<cbc:PayableAmount currencyID="NOK">6363</cbc:PayableAmount>
+		<cbc:LineExtensionAmount currencyID="SGD">6525.00</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="SGD">6272.50</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="SGD">6774.93</cbc:TaxInclusiveAmount>
+		<cbc:AllowanceTotalAmount currencyID="SGD">652.50</cbc:AllowanceTotalAmount>
+		<cbc:ChargeTotalAmount currencyID="SGD">400.00</cbc:ChargeTotalAmount>
+		<cbc:PrepaidAmount currencyID="SGD">10.00</cbc:PrepaidAmount>
+		<cbc:PayableRoundingAmount currencyID="SGD">0.07</cbc:PayableRoundingAmount>
+		<cbc:PayableAmount currencyID="SGD">6765</cbc:PayableAmount>
 	</cac:AnticipatedMonetaryTotal>
 	<cac:OrderLine>
 		<cbc:Note>Freetext note on line 1</cbc:Note>
 		<cac:LineItem>
 			<cbc:ID>1</cbc:ID>
 			<cbc:Quantity unitCode="EA">120</cbc:Quantity>
-			<cbc:LineExtensionAmount currencyID="NOK">6300.00</cbc:LineExtensionAmount>
+			<cbc:LineExtensionAmount currencyID="SGD">6300.00</cbc:LineExtensionAmount>
 			<cbc:PartialDeliveryIndicator>false</cbc:PartialDeliveryIndicator>
 			<cbc:AccountingCost>12345678</cbc:AccountingCost>
 			<cac:Delivery>
@@ -297,23 +270,23 @@
 				<cbc:ChargeIndicator>true</cbc:ChargeIndicator>
 				<cbc:AllowanceChargeReasonCode>ABK</cbc:AllowanceChargeReasonCode>
 				<cbc:AllowanceChargeReason>Miscellaneous services</cbc:AllowanceChargeReason>
-				<cbc:Amount currencyID="NOK">600.00</cbc:Amount>
+				<cbc:Amount currencyID="SGD">600.00</cbc:Amount>
 			</cac:AllowanceCharge>
 			<cac:AllowanceCharge>
 				<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
 				<cbc:AllowanceChargeReasonCode>95</cbc:AllowanceChargeReasonCode>
 				<cbc:AllowanceChargeReason>Discount</cbc:AllowanceChargeReason>
 				<cbc:MultiplierFactorNumeric>5</cbc:MultiplierFactorNumeric>
-				<cbc:Amount currencyID="NOK">300.00</cbc:Amount>
-				<cbc:BaseAmount currencyID="NOK">6000.00</cbc:BaseAmount>
+				<cbc:Amount currencyID="SGD">300.00</cbc:Amount>
+				<cbc:BaseAmount currencyID="SGD">6000.00</cbc:BaseAmount>
 			</cac:AllowanceCharge>
 			<cac:Price>
-				<cbc:PriceAmount currencyID="NOK">50.000</cbc:PriceAmount>
+				<cbc:PriceAmount currencyID="SGD">50.000</cbc:PriceAmount>
 				<cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
 				<cac:AllowanceCharge>
 					<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
-					<cbc:Amount currencyID="NOK">10.00</cbc:Amount>
-					<cbc:BaseAmount currencyID="NOK">60.00</cbc:BaseAmount>
+					<cbc:Amount currencyID="SGD">10.00</cbc:Amount>
+					<cbc:BaseAmount currencyID="SGD">60.00</cbc:BaseAmount>
 				</cac:AllowanceCharge>
 			</cac:Price>
 			<cac:Item>
@@ -336,10 +309,10 @@
 				</cac:CommodityClassification>
 
 				<cac:ClassifiedTaxCategory>
-					<cbc:ID>S</cbc:ID>
-					<cbc:Percent>25</cbc:Percent>
+					<cbc:ID>SR</cbc:ID>
+					<cbc:Percent>7</cbc:Percent>
 					<cac:TaxScheme>
-						<cbc:ID>VAT</cbc:ID>
+						<cbc:ID>GST</cbc:ID>
 					</cac:TaxScheme>
 				</cac:ClassifiedTaxCategory>
 				<cac:AdditionalItemProperty>
@@ -362,7 +335,7 @@
 		<cac:LineItem>
 			<cbc:ID>2</cbc:ID>
 			<cbc:Quantity unitCode="EA">15</cbc:Quantity>
-			<cbc:LineExtensionAmount currencyID="NOK">225.00</cbc:LineExtensionAmount>
+			<cbc:LineExtensionAmount currencyID="SGD">225.00</cbc:LineExtensionAmount>
 			<cbc:PartialDeliveryIndicator>true</cbc:PartialDeliveryIndicator>
 			<cbc:AccountingCost>ProjectID123</cbc:AccountingCost>
 			<cac:Delivery>
@@ -380,12 +353,12 @@
 				</cac:PartyName>
 			</cac:OriginatorParty>
 			<cac:Price>
-				<cbc:PriceAmount currencyID="NOK">15.000</cbc:PriceAmount>
+				<cbc:PriceAmount currencyID="SGD">15.0000</cbc:PriceAmount>
 				<cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
 				<cac:AllowanceCharge>
 					<cbc:ChargeIndicator>false</cbc:ChargeIndicator>
-					<cbc:Amount currencyID="NOK">100.0000</cbc:Amount>
-					<cbc:BaseAmount currencyID="NOK">115.0000</cbc:BaseAmount>
+					<cbc:Amount currencyID="SGD">100.0000</cbc:Amount>
+					<cbc:BaseAmount currencyID="SGD">115.0000</cbc:BaseAmount>
 				</cac:AllowanceCharge>
 			</cac:Price>
 			<cac:Item>
@@ -398,10 +371,10 @@
 					<cbc:ItemClassificationCode listID="MP" listVersionID="19.0501">56789123</cbc:ItemClassificationCode>
 				</cac:CommodityClassification>
 				<cac:ClassifiedTaxCategory>
-					<cbc:ID>S</cbc:ID>
-					<cbc:Percent>25</cbc:Percent>
+					<cbc:ID>SR</cbc:ID>
+					<cbc:Percent>7</cbc:Percent>
 					<cac:TaxScheme>
-						<cbc:ID>VAT</cbc:ID>
+						<cbc:ID>GST</cbc:ID>
 					</cac:TaxScheme>
 				</cac:ClassifiedTaxCategory>
 				<cac:AdditionalItemProperty>

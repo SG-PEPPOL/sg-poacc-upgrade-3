@@ -20,26 +20,20 @@
 	<cbc:IssueTime>12:00:00</cbc:IssueTime>
 	<cbc:Note>text</cbc:Note>
 	<cac:SenderParty>
-		<cbc:EndpointID schemeID="0088">5798000012349</cbc:EndpointID>
-		<cac:PartyIdentification>
-			<cbc:ID schemeID="0184">DK88776655</cbc:ID>
-		</cac:PartyIdentification>
+		<cbc:EndpointID schemeID="0195">SGUEN200254321Z</cbc:EndpointID>
 		<cac:PartyLegalEntity>
-			<cbc:RegistrationName>Buyer organization</cbc:RegistrationName>
+			<cbc:RegistrationName>IMDA</cbc:RegistrationName>
 		</cac:PartyLegalEntity>
 		<cac:Contact>
-			<cbc:Name>Jens Jensen</cbc:Name>
-			<cbc:Telephone>23232323</cbc:Telephone>
-			<cbc:ElectronicMail>jj@test-company.dk</cbc:ElectronicMail>
+			<cbc:Name>Bill</cbc:Name>
+			<cbc:Telephone>5121230</cbc:Telephone>
+			<cbc:ElectronicMail>bill@imda.sg</cbc:ElectronicMail>
 		</cac:Contact>
 	</cac:SenderParty>
 	<cac:ReceiverParty>
-		<cbc:EndpointID schemeID="0088">7330001000000</cbc:EndpointID>
-		<cac:PartyIdentification>
-			<cbc:ID schemeID="0192">987654325</cbc:ID>
-		</cac:PartyIdentification>
+		<cbc:EndpointID schemeID="0195">SGUEN200212345Z</cbc:EndpointID>
 		<cac:PartyLegalEntity>
-			<cbc:RegistrationName>Seller company</cbc:RegistrationName>
+			<cbc:RegistrationName>Gallery Photo Supplier</cbc:RegistrationName>
 		</cac:PartyLegalEntity>
 	</cac:ReceiverParty>
 	<cac:DocumentResponse>
@@ -48,10 +42,10 @@
 			<cbc:EffectiveDate>2018-09-24</cbc:EffectiveDate>
 			<cac:Status>
 				<cbc:StatusReasonCode listID="OPStatusAction">NOA</cbc:StatusReasonCode>
-				<cbc:StatusReason>VAT Reference not found</cbc:StatusReason>
+				<cbc:StatusReason>GST Reference not found</cbc:StatusReason>
 				<cac:Condition>
 					<cbc:AttributeID>BT-48</cbc:AttributeID>
-					<cbc:Description>EU123456789</cbc:Description>
+					<cbc:Description>SGUEN200254321Z</cbc:Description>
 				</cac:Condition>
 			</cac:Status>
 		</cac:Response>

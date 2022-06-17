@@ -11,16 +11,16 @@
 	<cbc:IssueTime>06:10:10</cbc:IssueTime>
 	<cbc:OrderResponseCode>AP</cbc:OrderResponseCode>
 	<cbc:Note>Response message with amendments in the details</cbc:Note>
-	<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+	<cbc:DocumentCurrencyCode>SGD</cbc:DocumentCurrencyCode>
 	<cbc:CustomerReference>ABC-123</cbc:CustomerReference>
 	<cac:OrderReference>
 		<cbc:ID>11233</cbc:ID>
 	</cac:OrderReference>
 	<cac:SellerSupplierParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="0088">7598000000128</cbc:EndpointID>
+			<cbc:EndpointID schemeID="0195">SGUEN200212345Z</cbc:EndpointID>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0184">DK12345678</cbc:ID>
+				<cbc:ID>SG12345678</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyLegalEntity>
 				<cbc:RegistrationName>The Supplier AB</cbc:RegistrationName>
@@ -29,9 +29,9 @@
 	</cac:SellerSupplierParty>
 	<cac:BuyerCustomerParty>
 		<cac:Party>
-			<cbc:EndpointID schemeID="0088">7590000012347</cbc:EndpointID>
+			<cbc:EndpointID schemeID="0195">SGUEN200254321Z</cbc:EndpointID>
 			<cac:PartyIdentification>
-				<cbc:ID schemeID="0184">DK55412777</cbc:ID>
+				<cbc:ID>6513954</cbc:ID>
 			</cac:PartyIdentification>
 			<cac:PartyLegalEntity>
 				<cbc:RegistrationName>City Hospital</cbc:RegistrationName>
@@ -58,7 +58,7 @@
 				</cac:PromisedDeliveryPeriod>
 			</cac:Delivery>
 			<cac:Price>
-				<cbc:PriceAmount currencyID="EUR">1.50</cbc:PriceAmount>
+				<cbc:PriceAmount currencyID="SGD">1.50</cbc:PriceAmount>
 				<cbc:BaseQuantity unitCode="C62">1</cbc:BaseQuantity>
 			</cac:Price>
 			<cac:Item>
@@ -88,10 +88,10 @@
 					<cbc:ItemClassificationCode listID="MP" listVersionID="19.0501">12345678</cbc:ItemClassificationCode>
 				</cac:CommodityClassification>
 				<cac:ClassifiedTaxCategory>
-					<cbc:ID>S</cbc:ID>
-					<cbc:Percent>25</cbc:Percent>
+					<cbc:ID>SR</cbc:ID>
+					<cbc:Percent>7</cbc:Percent>
 					<cac:TaxScheme>
-						<cbc:ID>VAT</cbc:ID>
+						<cbc:ID>GST</cbc:ID>
 					</cac:TaxScheme>
 				</cac:ClassifiedTaxCategory>
 				<cac:AdditionalItemProperty>
@@ -144,10 +144,10 @@
 					<cbc:ID schemeID="0160">8722700577588</cbc:ID>
 				</cac:StandardItemIdentification>
 				<cac:ClassifiedTaxCategory>
-					<cbc:ID>S</cbc:ID>
-					<cbc:Percent>25</cbc:Percent>
+					<cbc:ID>SR</cbc:ID>
+					<cbc:Percent>7</cbc:Percent>
 					<cac:TaxScheme>
-						<cbc:ID>VAT</cbc:ID>
+						<cbc:ID>GST</cbc:ID>
 					</cac:TaxScheme>
 				</cac:ClassifiedTaxCategory>
 			</cac:Item>
