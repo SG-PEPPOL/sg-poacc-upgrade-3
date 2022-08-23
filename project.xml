@@ -292,7 +292,8 @@
     <Resource>
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-despatch-advice.xml</Path>
-    </Resource>
+    </Resource>-->
+	
     <Resource>
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-order.xml</Path>
@@ -301,7 +302,7 @@
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-order-response.xml</Path>
     </Resource>
--->	
+
     <Resource>
         <Type>Namespace-1</Type>
         <Path>structure/namespace/ubl-cac.xml</Path>
