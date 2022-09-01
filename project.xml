@@ -13,7 +13,7 @@
 <!--    <Documentation path="profiles/18-punchout/">- Peppol BIS Punch Out 3.1</Documentation>-->
 	<Documentation path="profiles/42-orderagreement/">- Peppol BIS Order Agreement 3.0</Documentation>
 <!--    <Documentation path="profiles/36-mlr/">- Peppol BIS Message Level Response 3.0</Documentation>-->
-    <Documentation path="profiles/63-invoiceresponse/">Peppol BIS Invoice Response 3.1</Documentation>
+    <Documentation path="profiles/63-invoiceresponse/">- Peppol BIS Invoice Response 3.1</Documentation>
 	<Documentation path="introduction/">About these specifications</Documentation>
     <!-- <Documentation path="work/">Overview and processing of alignments</Documentation> -->
     <!-- <Documentation path="review/">Review of alignments</Documentation> -->
@@ -78,7 +78,7 @@
         <Identifier>T01</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T01.sch</Path>
-        <Title>Business rules for Peppol Order transaction 3.0 </Title>
+        <Title>Business rules for Peppol Order transaction 3.2 </Title>
     </Resource>
 
 <!--    <Resource>
