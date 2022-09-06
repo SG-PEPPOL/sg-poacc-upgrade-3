@@ -180,7 +180,7 @@
       <cbc:ID>S</cbc:ID>
       <cbc:Percent>25</cbc:Percent>
       <cac:TaxScheme>
-        <cbc:ID>VAT</cbc:ID>
+        <cbc:ID>GST</cbc:ID>
       </cac:TaxScheme>
     </cac:TaxCategory>
   </cac:AllowanceCharge>
@@ -193,7 +193,7 @@
       <cbc:ID>S</cbc:ID>
       <cbc:Percent>25</cbc:Percent>
       <cac:TaxScheme>
-        <cbc:ID>VAT</cbc:ID>
+        <cbc:ID>GST</cbc:ID>
       </cac:TaxScheme>
     </cac:TaxCategory>
   </cac:AllowanceCharge>
@@ -243,7 +243,7 @@
           <cbc:ID>S</cbc:ID>
           <cbc:Percent>25</cbc:Percent>
           <cac:TaxScheme>
-            <cbc:ID>VAT</cbc:ID>
+            <cbc:ID>GST</cbc:ID>
           </cac:TaxScheme>
         </cac:ClassifiedTaxCategory>
         </cac:Item>
@@ -282,7 +282,7 @@
           <cbc:ID>S</cbc:ID>
           <cbc:Percent>25</cbc:Percent>
           <cac:TaxScheme>
-            <cbc:ID>VAT</cbc:ID>
+            <cbc:ID>GST</cbc:ID>
           </cac:TaxScheme>
         </cac:ClassifiedTaxCategory>
         </cac:Item>
@@ -313,7 +313,7 @@
           <cbc:ID>S</cbc:ID>
           <cbc:Percent>25</cbc:Percent>
           <cac:TaxScheme>
-            <cbc:ID>VAT</cbc:ID>
+            <cbc:ID>GST</cbc:ID>
           </cac:TaxScheme>
         </cac:ClassifiedTaxCategory>
         </cac:Item>
