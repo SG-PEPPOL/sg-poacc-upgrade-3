@@ -5,7 +5,7 @@ TAX information on line level is provided in the class `cac:ClassifiedTaxCategor
 
 Each line may have the item TAX information including category code and percentage.
 
-.UBL example of line TAX category, when TAX is VAT
+.UBL example of line TAX category, when TAX is GST
 [source, xml, indent=0]
 ----
 include::../snippets/snippet-common.xml[tags=vat-line]
