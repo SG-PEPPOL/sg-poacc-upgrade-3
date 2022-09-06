@@ -95,8 +95,8 @@
     <cbc:AllowanceChargeReason>Freight cost</cbc:AllowanceChargeReason>
     <cbc:Amount currencyID="EUR">200</cbc:Amount>
 <cac:TaxCategory>
-  <cbc:ID>S</cbc:ID>
-  <cbc:Percent>25</cbc:Percent>
+  <cbc:ID>SR</cbc:ID>
+  <cbc:Percent>7</cbc:Percent>
   <cac:TaxScheme>
     <cbc:ID>GST</cbc:ID>
   </cac:TaxScheme>
@@ -107,8 +107,8 @@
     <cbc:AllowanceChargeReason>Agreed discount</cbc:AllowanceChargeReason>
     <cbc:Amount currencyID="EUR">100</cbc:Amount>
     <cac:TaxCategory>
-      <cbc:ID>S</cbc:ID>
-      <cbc:Percent>25</cbc:Percent>
+      <cbc:ID>SR</cbc:ID>
+      <cbc:Percent>7</cbc:Percent>
       <cac:TaxScheme>
         <cbc:ID>GST</cbc:ID>
       </cac:TaxScheme>
@@ -143,8 +143,8 @@
         <cbc:Description>Free text description of item 1</cbc:Description>
         <cbc:Name>Item 1</cbc:Name>
         <cac:ClassifiedTaxCategory>
-          <cbc:ID>S</cbc:ID>
-          <cbc:Percent>25</cbc:Percent>
+          <cbc:ID>SR</cbc:ID>
+          <cbc:Percent>7</cbc:Percent>
           <cac:TaxScheme>
             <cbc:ID>GST</cbc:ID>
           </cac:TaxScheme>
@@ -173,8 +173,8 @@
         <cbc:Description>Free text description of item 2</cbc:Description>
         <cbc:Name>Item 2</cbc:Name>
         <cac:ClassifiedTaxCategory>
-          <cbc:ID>S</cbc:ID>
-          <cbc:Percent>25</cbc:Percent>
+          <cbc:ID>SR</cbc:ID>
+          <cbc:Percent>7</cbc:Percent>
           <cac:TaxScheme>
             <cbc:ID>GST</cbc:ID>
           </cac:TaxScheme>

@@ -117,10 +117,10 @@
 		<cbc:AllowanceChargeReason>Discount</cbc:AllowanceChargeReason><!--2-->
 		<cbc:Amount currencyID="EUR">200</cbc:Amount><!--3-->
 		<cac:TaxCategory>
-			<cbc:ID>S</cbc:ID>
-			<cbc:Percent>23.6</cbc:Percent>
+			<cbc:ID>SR</cbc:ID>
+			<cbc:Percent>7</cbc:Percent>
 			<cac:TaxScheme>
-				<cbc:ID>VAT</cbc:ID>
+				<cbc:ID>GST</cbc:ID>
 			</cac:TaxScheme>
 		</cac:TaxCategory>
 	</cac:AllowanceCharge>
@@ -131,10 +131,10 @@
 		<cbc:AllowanceChargeReason>Packing cost</cbc:AllowanceChargeReason>
 		<cbc:Amount currencyID="EUR">200</cbc:Amount>
 		<cac:TaxCategory><!--1-->
-			<cbc:ID>S</cbc:ID><!--2-->
-			<cbc:Percent>23.6</cbc:Percent><!--3-->
+			<cbc:ID>SR</cbc:ID><!--2-->
+			<cbc:Percent>7</cbc:Percent><!--3-->
 			<cac:TaxScheme>
-				<cbc:ID>VAT</cbc:ID>
+				<cbc:ID>GST</cbc:ID>
 			</cac:TaxScheme>
 		</cac:TaxCategory>
 	</cac:AllowanceCharge>
@@ -147,10 +147,10 @@
 			<cbc:TaxableAmount currencyID="EUR">1200</cbc:TaxableAmount><!--1-->
 			<cbc:TaxAmount currencyID="EUR">283.20</cbc:TaxAmount><!--2-->
 			<cac:TaxCategory>
-				<cbc:ID>S</cbc:ID>
-				<cbc:Percent>23.6</cbc:Percent> <!--3-->
+				<cbc:ID>SR</cbc:ID>
+				<cbc:Percent>7</cbc:Percent> <!--3-->
 				<cac:TaxScheme>
-					<cbc:ID>VAT</cbc:ID>
+					<cbc:ID>GST</cbc:ID>
 				</cac:TaxScheme>
 			</cac:TaxCategory>
 		</cac:TaxSubtotal>
@@ -208,10 +208,10 @@
 					<cbc:ActionCode>CT</cbc:ActionCode>
 				</cac:TransactionConditions>
 				<cac:ClassifiedTaxCategory>
-					<cbc:ID>S</cbc:ID>
-					<cbc:Percent>23.6</cbc:Percent>
+					<cbc:ID>SR</cbc:ID>
+					<cbc:Percent>7</cbc:Percent>
 					<cac:TaxScheme>
-						<cbc:ID>VAT</cbc:ID>
+						<cbc:ID>GST</cbc:ID>
 					</cac:TaxScheme>
 				</cac:ClassifiedTaxCategory>
 				<cac:AdditionalItemProperty>

@@ -79,10 +79,10 @@
             </cac:CommodityClassification>
             <!-- tag::vat-line[] -->
             <cac:ClassifiedTaxCategory>
-                <cbc:ID>S</cbc:ID> <!--1-->
-                <cbc:Percent>18</cbc:Percent><!--2-->
+                <cbc:ID>SR</cbc:ID> <!--1-->
+                <cbc:Percent>7</cbc:Percent><!--2-->
                 <cac:TaxScheme>
-                    <cbc:ID>VAT</cbc:ID><!--3-->
+                    <cbc:ID>GST</cbc:ID><!--3-->
                 </cac:TaxScheme>
             </cac:ClassifiedTaxCategory>
             <!-- end::vat-line[] -->
@@ -140,10 +140,10 @@
                 <cbc:ItemClassificationCode listID="STI">20101601</cbc:ItemClassificationCode>
             </cac:CommodityClassification>
             <cac:ClassifiedTaxCategory>
-                <cbc:ID>S</cbc:ID>
-                <cbc:Percent>18</cbc:Percent>
+                <cbc:ID>SR</cbc:ID>
+                <cbc:Percent>7</cbc:Percent>
                 <cac:TaxScheme>
-                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:ID>GST</cbc:ID>
                 </cac:TaxScheme>
             </cac:ClassifiedTaxCategory>
                       <cac:AdditionalItemProperty>
@@ -171,10 +171,10 @@
                 <cbc:ID>6789</cbc:ID>
             </cac:SellersItemIdentification>
             <cac:ClassifiedTaxCategory>
-                <cbc:ID>S</cbc:ID>
-                <cbc:Percent>8</cbc:Percent>
+                <cbc:ID>SR</cbc:ID>
+                <cbc:Percent>7</cbc:Percent>
                 <cac:TaxScheme>
-                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:ID>GST</cbc:ID>
                 </cac:TaxScheme>
             </cac:ClassifiedTaxCategory>
 
