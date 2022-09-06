@@ -11,7 +11,7 @@
 
 
 |tbr01-027
-|An order must provide for information about the final price that the buyer expects to pay exclusive of any VAT.
+|An order must provide for information about the final price that the buyer expects to pay exclusive of any GST.
 This makes it possible for the seller to verify against his price lists and contracts.
 An order must provide for giving the base quantity to which the price applies.
 
