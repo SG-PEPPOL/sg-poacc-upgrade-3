@@ -271,6 +271,14 @@
         <Property key="download">SG-PEPPOLBIS-eDocs-Schematron.zip</Property>
         <Property key="filename">SG-PEPPOLBIS-eDocs-Schematron.zip</Property>
     </Resource>
+
+     <Resource>
+        <Type>native:File</Type>
+        <Path>project.xml</Path>
+        <Title>UBL Order, Order Response, Application Response XML Schemas</Title>
+        <Property key="download">UBL-AppResp-Ord-OrdResp-xsd.zip</Property>
+        <Property key="filename">UBL-AppResp-Ord-OrdResp-xsd.zip</Property>
+    </Resource>
 	
     <Resource>
         <Type>native:File</Type>

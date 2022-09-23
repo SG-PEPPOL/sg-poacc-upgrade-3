@@ -27,6 +27,11 @@ docker run --rm -i -v $PROJECT/target/schematron:/src -v $PROJECT/target/site/fi
 docker run --rm -i -v $PROJECT/target/site/files:/src alpine:3.6 rm -rf /src/SG-PEPPOLBIS-eDocs-Examples.zip
 docker run --rm -i -v $PROJECT/rules/examples:/src -v $PROJECT/target/site/files:/target -w /src kramos/alpine-zip -r /target/SG-PEPPOLBIS-eDocs-Examples.zip .
 
+# UBL XSD
+docker run --rm -i -v $PROJECT/target/site/files:/src alpine:3.6 rm -rf /src/UBL-AppResp-Ord-OrdResp-xsd.zip
+docker run --rm -i -v $PROJECT/ubl-xsd:/src -v $PROJECT/target/site/files:/target -w /src kramos/alpine-zip -r /target/UBL-AppResp-Ord-OrdResp-xsd.zip .
+
+
 # Guides
 docker run --rm -i -v $PROJECT:/documents -v $PROJECT/target:/target difi/asciidoctor
 
