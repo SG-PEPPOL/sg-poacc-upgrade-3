@@ -3,11 +3,11 @@
         xmlns:xi="http://www.w3.org/2001/XInclude"
         schemaVersion="iso" queryBinding="xslt2">
 
-    <title>Rules for PEPPOL Order Agreement transaction 3.1</title>
-
+    <title>Rules for PEPPOL Catalogue transaction 3.2</title>
+    
     <ns uri="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" prefix="cbc"/>
     <ns uri="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" prefix="cac"/>
-    <ns uri="urn:oasis:names:specification:ubl:schema:xsd:OrderResponse-2" prefix="ubl"/>
+    <ns uri="urn:oasis:names:specification:ubl:schema:xsd:Catalogue-2" prefix="ubl"/>
     <ns uri="http://www.w3.org/2001/XMLSchema" prefix="xs"/>
     <ns uri="utils" prefix="u"/>
     
@@ -15,7 +15,6 @@
 
     <xi:include href="parts/function/gln.xml"/>
     <xi:include href="parts/function/slack.xml"/>
-    <xi:include href="parts/function/cat2str.xml"/>
     <xi:include href="parts/function/mod11.xml"/>
 	<xi:include href="parts/function/checkCodiceIPA.xml"/>
 	<xi:include href="parts/function/addPIVA.xml"/>
@@ -24,13 +23,12 @@
 	<xi:include href="parts/function/checkPIVA.xml"/>
 	<xi:include href="parts/function/checkPIVAseIT.xml"/>
 	<xi:include href="parts/function/mod97-0208.xml"/>
-    <xi:include href="parts/function/abn.xml"/>	
-	
+    <xi:include href="parts/function/abn.xml"/>		
     <!-- Rules -->
 
     <include href="parts/common/empty-elements.sch"/>
     <include href="parts/common/rules.sch"/>
-    <include href="../../target/generated/T110-basic.sch"/>
-    <include href="parts/PEPPOL-M-T110.sch"/>
+    <include href="../../target/generated/T19-basic.sch"/>
+    <include href="parts/PEPPOL-M-T19.sch"/>
 
 </schema>
