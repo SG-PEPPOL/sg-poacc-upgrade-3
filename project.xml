@@ -4,30 +4,17 @@
     <!-- Introduction -->
 <Documentation path="../">Back to www.peppolguide.sg</Documentation>
     <!-- BIS documents -->
-<<<<<<< HEAD
 <!--    <Documentation path="">BIS DOCUMENTS</Documentation>-->
-	<Documentation path="profiles/3-order-only/">- Peppol BIS Order only 3.2</Documentation>
-	<Documentation path="profiles/28-ordering/">- Peppol BIS Ordering 3.2</Documentation>
+	<Documentation path="profiles/3-order-only/">- Peppol BIS Order only 3.3</Documentation>
+	<Documentation path="profiles/28-ordering/">- Peppol BIS Ordering 3.3</Documentation>
 <!--    <Documentation path="profiles/1-catalogueonly/">- Peppol BIS Catalogue with response 3.1</Documentation>-->
 <!--    <Documentation path="profiles/64-catalogue-wo-response/">- Peppol BIS Catalogue without response 3.1</Documentation>-->
 <!--    <Documentation path="profiles/30-despatchadvice/">- Peppol BIS Despatch Advice 3.1</Documentation>-->
 <!--    <Documentation path="profiles/18-punchout/">- Peppol BIS Punch Out 3.1</Documentation>-->
 	<Documentation path="profiles/42-orderagreement/">- Peppol BIS Order Agreement 3.0</Documentation>
 <!--    <Documentation path="profiles/36-mlr/">- Peppol BIS Message Level Response 3.0</Documentation>-->
-    <Documentation path="profiles/63-invoiceresponse/">- Peppol BIS Invoice Response 3.1</Documentation>
-	<Documentation path="introduction/">About these specifications</Documentation>
-=======
-    <Documentation path="">BIS DOCUMENTS</Documentation>
-    <Documentation path="profiles/3-order-only/">- Peppol BIS Order only 3.3</Documentation>
-    <Documentation path="profiles/28-ordering/">- Peppol BIS Ordering 3.3</Documentation>
-    <Documentation path="profiles/1-catalogueonly/">- Peppol BIS Catalogue with response 3.1</Documentation>
-    <Documentation path="profiles/64-catalogue-wo-response/">- Peppol BIS Catalogue without response 3.1</Documentation>
-    <Documentation path="profiles/30-despatchadvice/">- Peppol BIS Despatch Advice 3.1</Documentation>
-    <Documentation path="profiles/18-punchout/">- Peppol BIS Punch Out 3.1</Documentation>
-    <Documentation path="profiles/42-orderagreement/">- Peppol BIS Order Agreement 3.0</Documentation>
-    <Documentation path="profiles/36-mlr/">- Peppol BIS Message Level Response 3.0</Documentation>
     <Documentation path="profiles/63-invoiceresponse/">- Peppol BIS Invoice Response 3.2</Documentation>
->>>>>>> 98772b36795c06e28330c1b0b8d9ff9bfba33e03
+	<Documentation path="introduction/">About these specifications</Documentation>
     <!-- <Documentation path="work/">Overview and processing of alignments</Documentation> -->
     <!-- <Documentation path="review/">Review of alignments</Documentation> -->
     <!-- <Documentation path="methodology/schematron/">Schematron guideline</Documentation> -->
@@ -52,15 +39,9 @@
 <!--    <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-catalogue.xml</Path>
-<<<<<<< HEAD
-        <Title>Peppol Catalogue transaction 3.1 (T19)</Title>
+        <Title>Peppol Catalogue transaction 3.2 (T19)</Title>
     </Resource>-->
 <!--    <Resource>
-=======
-        <Title>Peppol Catalogue transaction 3.2 (T19)</Title>
-    </Resource>
-    <Resource>
->>>>>>> 98772b36795c06e28330c1b0b8d9ff9bfba33e03
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-catalogue-response.xml</Path>
         <Title>Peppol Catalogue Response transaction 3.0 (T58)</Title>
@@ -68,25 +49,14 @@
 <!--    <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-despatch-advice.xml</Path>
-<<<<<<< HEAD
-        <Title>Peppol Despatch Advice transaction 3.1 (T16)</Title>
-    </Resource>-->
-<!--    <Resource>
-        <Type>Structure-1</Type>
-        <Path>structure/syntax/ubl-shoppingcart.xml</Path>
-        <Title>Peppol Punch Out transaction 3.1 (T77)</Title>
-    </Resource>-->
-<!--    <Resource>
-=======
         <Title>Peppol Despatch Advice transaction 3.2 (T16)</Title>
-    </Resource>
-    <Resource>
+    </Resource>-->
+<!--    <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-shoppingcart.xml</Path>
         <Title>Peppol Punch Out transaction 3.2 (T77)</Title>
-    </Resource>
-    <Resource>
->>>>>>> 98772b36795c06e28330c1b0b8d9ff9bfba33e03
+    </Resource>-->
+<!--    <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-mlr.xml</Path>
         <Title>Peppol Message Level Response 3.0 (T71)</Title>
@@ -270,16 +240,7 @@
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL5387.xml</Path>
-<<<<<<< HEAD
     </Resource>-->
-=======
-    </Resource>
-	<Resource>
-        <Type>CodeList-1</Type>
-        <Path>structure/codelist/UNECERec19.xml</Path>
-    </Resource>
-    
->>>>>>> 98772b36795c06e28330c1b0b8d9ff9bfba33e03
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNECERec20-11e.xml</Path>
