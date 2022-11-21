@@ -153,12 +153,12 @@
         <Path>structure/codelist/ActionCode_line.xml</Path>
     </Resource>
 	-->
-	<!--
+
     <Resource>
         <Type>CodeList-1</Type>
         <Path>structure/codelist/UNCL7161.xml</Path>
     </Resource>
-	-->
+
 	
     <Resource>
         <Type>CodeList-1</Type>
