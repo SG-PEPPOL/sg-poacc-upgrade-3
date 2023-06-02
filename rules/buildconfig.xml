@@ -8,32 +8,32 @@
   <testfolder>unit-common</testfolder>
   <testfolder>unit-despatch-advice</testfolder>-->
   <testfolder>unit-invoice-response</testfolder>
-<!--  <testfolder>unit-order</testfolder>
+  <testfolder>unit-order</testfolder>
   <testfolder>unit-order-agreement</testfolder>
   <testfolder>unit-order-response</testfolder>
-  <testfolder>unit-punch-out</testfolder>-->
+<!--  <testfolder>unit-punch-out</testfolder>-->
   
   <!-- example and snippet folders -->
   <testfolder>examples</testfolder>
-<!--  <testfolder>use-case-examples/order</testfolder>
+ <testfolder>use-case-examples/order</testfolder>
   <testfolder>use-case-examples/order-response</testfolder>
   <testfolder>snippets/order</testfolder>
   <testfolder>snippets/order-response</testfolder>
   <testfolder>snippets/order-agreement</testfolder>
-  <testfolder>snippets/catalogue</testfolder>
+<!--   <testfolder>snippets/catalogue</testfolder>
   <testfolder>snippets/punchout</testfolder>
   <testfolder>snippets/despatch</testfolder>
   <testfolder>snippets/mlr</testfolder>-->
   
 <!-- base config -->
-<!--
+
   <configuration>
     <identifier>peppolbis-t01-base-3.0</identifier>
     <title>PEPPOL Order 3.0 (T01)</title>
     <inherit>ubl-order-2.1</inherit>
     <file source="sch/PEPPOLBIS-T01.sch" path="xsl/PEPPOLBIS-T01.xsl"/>
   </configuration>
-  <configuration>
+<!--  <configuration>
     <identifier>peppolbis-t16-base-3.0</identifier>
     <title>PEPPOL Despatch Advice 3.0 (T16)</title>
     <inherit>ubl-despatchadvice-2.1</inherit>
@@ -50,26 +50,27 @@
     <title>PEPPOL Catalogue Response 3.0 (T58)</title>
     <inherit>ubl-applicationresponse-2.1</inherit>
     <file source="sch/PEPPOLBIS-T58.sch" path="xsl/PEPPOLBIS-T58.xsl"/>
-  </configuration>
+  </configuration>-->
   <configuration>
     <identifier>peppolbis-t76-base-3.0</identifier>
     <title>PEPPOL Order Response 3.0 (T76)</title>
     <inherit>ubl-orderresponse-2.1</inherit>
     <file source="sch/PEPPOLBIS-T76.sch" path="xsl/PEPPOLBIS-T76.xsl"/>
   </configuration>
+  <!--
   <configuration>
     <identifier>peppolbis-t77-base-3.0</identifier>
     <title>PEPPOL Punch Out 3.0 (T77)</title>
     <inherit>ubl-catalogue-2.1</inherit>
     <file source="sch/PEPPOLBIS-T77.sch" path="xsl/PEPPOLBIS-T77.xsl"/>
-  </configuration>
+  </configuration>-->
   <configuration>
     <identifier>peppolbis-t110-base-3.0</identifier>
     <title>PEPPOL Order Agreement 3.0 (T110)</title>
     <inherit>ubl-orderresponse-2.1</inherit>
     <file source="sch/PEPPOLBIS-T110.sch" path="xsl/PEPPOLBIS-T110.xsl"/>
   </configuration>
-  -->
+  
   <configuration>
     <identifier>peppolbis-t111-base-3.0</identifier>
     <title>PEPPOL Invoice Response 3.0 (T111)</title>
@@ -85,7 +86,7 @@
   </configuration>-->
   
   <!-- profile config -->
-  <!--
+  
   <configuration>
     <identifier>peppolbis-03-order</identifier>
     <title>PEPPOL BIS Order Only 3.0</title>
@@ -117,7 +118,7 @@
     <customizationId>urn:fdc:peppol.eu:poacc:trns:order_agreement:3</customizationId>
     <inherit>peppolbis-t110-base-3.0</inherit>
   </configuration>
-  
+  <!--
   <configuration>
     <identifier>peppolbis-1</identifier>
     <title>PEPPOL BIS Catalogue 3.0</title>

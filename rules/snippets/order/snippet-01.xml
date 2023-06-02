@@ -177,10 +177,10 @@
     <cbc:Amount currencyID="EUR">20</cbc:Amount> <!--5-->
     <cbc:BaseAmount currencyID="EUR">1000</cbc:BaseAmount><!--3-->
     <cac:TaxCategory>
-      <cbc:ID>S</cbc:ID>
-      <cbc:Percent>25</cbc:Percent>
+      <cbc:ID>SR</cbc:ID>
+      <cbc:Percent>7</cbc:Percent>
       <cac:TaxScheme>
-        <cbc:ID>VAT</cbc:ID>
+        <cbc:ID>GST</cbc:ID>
       </cac:TaxScheme>
     </cac:TaxCategory>
   </cac:AllowanceCharge>
@@ -190,10 +190,10 @@
     <cbc:AllowanceChargeReason>Production error discount</cbc:AllowanceChargeReason>
     <cbc:Amount currencyID="EUR">10</cbc:Amount>
     <cac:TaxCategory>
-      <cbc:ID>S</cbc:ID>
-      <cbc:Percent>25</cbc:Percent>
+      <cbc:ID>SR</cbc:ID>
+      <cbc:Percent>7</cbc:Percent>
       <cac:TaxScheme>
-        <cbc:ID>VAT</cbc:ID>
+        <cbc:ID>GST</cbc:ID>
       </cac:TaxScheme>
     </cac:TaxCategory>
   </cac:AllowanceCharge>
@@ -240,10 +240,10 @@
         </cac:StandardItemIdentification>
          <!-- end::prod-id[] -->
         <cac:ClassifiedTaxCategory>
-          <cbc:ID>S</cbc:ID>
-          <cbc:Percent>25</cbc:Percent>
+          <cbc:ID>SR</cbc:ID>
+          <cbc:Percent>7</cbc:Percent>
           <cac:TaxScheme>
-            <cbc:ID>VAT</cbc:ID>
+            <cbc:ID>GST</cbc:ID>
           </cac:TaxScheme>
         </cac:ClassifiedTaxCategory>
         </cac:Item>
@@ -279,10 +279,10 @@
           <cbc:ID schemeID="0160">08722700575887</cbc:ID>
         </cac:StandardItemIdentification>
         <cac:ClassifiedTaxCategory>
-          <cbc:ID>S</cbc:ID>
-          <cbc:Percent>25</cbc:Percent>
+          <cbc:ID>SR</cbc:ID>
+          <cbc:Percent>7</cbc:Percent>
           <cac:TaxScheme>
-            <cbc:ID>VAT</cbc:ID>
+            <cbc:ID>GST</cbc:ID>
           </cac:TaxScheme>
         </cac:ClassifiedTaxCategory>
         </cac:Item>
@@ -310,10 +310,10 @@
           <cbc:ID schemeID="0160">08722700577584</cbc:ID>
         </cac:StandardItemIdentification>
         <cac:ClassifiedTaxCategory>
-          <cbc:ID>S</cbc:ID>
-          <cbc:Percent>25</cbc:Percent>
+          <cbc:ID>SR</cbc:ID>
+          <cbc:Percent>7</cbc:Percent>
           <cac:TaxScheme>
-            <cbc:ID>VAT</cbc:ID>
+            <cbc:ID>GST</cbc:ID>
           </cac:TaxScheme>
         </cac:ClassifiedTaxCategory>
         </cac:Item>

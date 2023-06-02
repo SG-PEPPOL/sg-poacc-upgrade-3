@@ -1,12 +1,12 @@
-= About to thess specifications
+= About these specifications
 
 These specifications consists of several components which can be accessed on this website. Here follows a short introduction of each part and its purpose. They can all be accessed from the main page.
 
-== Peppol BIS Invoice Response 3.1
-The main documentation which describes the functionality and business process supported. It gives a high level view but goes also into selected parts of the business message describing common examples, datatypes and code lists.
+== Documentation
+The main BIS document (Business Interoperability Specification) which describes a business process and the functionality that it supports. It gives a high level view but also goes also into selected parts of the business message by describing common examples, datatypes and code lists. A business process consists of a series of transaction that are exchanged between the business parties in the described sequence. Technical details for each transaction are provided in the following sections, syntax, rules and code lists.
 
 ****
-NOTE:It should be noted that this specification is a re-publication of the same specification published by OpenPeppol with a few customized non-normative examples that shows typical values used in Singapore. The schematron rules are also re-published. In the unlikely event of discrepencies, the OpenPeppol schematron is to be considered normative.
+NOTE:It should be noted that these specifications are a re-publication of the same specifications published by OpenPeppol with a few customized non-normative examples that show typical values used in Singapore. The schematron rules are also re-published. In the unlikely event of discrepencies, the OpenPeppol schematron is to be considered normative.
 ****
 
 == Syntax

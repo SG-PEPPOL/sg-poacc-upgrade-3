@@ -11,7 +11,7 @@
 
 
 |tbr01-011
-|For supporting reverse charge VAT invoicing the order must provide for the buyers VAT number in order to enable the seller to issue legally valid invoices.
+|For supporting reverse charge GST invoicing the order must provide for the buyers GST number in order to enable the seller to issue legally valid invoices.
 In some cases the buyer’s legal registration ID should also be provided.
 The legal registration ID may be used for identification purposes in the invoicing process and to verify the identity of parties for commercial purposes.
 

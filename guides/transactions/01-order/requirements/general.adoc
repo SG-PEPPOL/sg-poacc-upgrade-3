@@ -19,7 +19,7 @@
 
 
 |tbr01-004
-|An order must provide for information about the value of items ordered and what prices, charges and totals (including estimate of VAT) are expected to be paid in a way that can be matched against an invoice.
+|An order must provide for information about the value of items ordered and what prices, charges and totals (including estimate of GST) are expected to be paid in a way that can be matched against an invoice.
 
 
 |tbr01-005

@@ -32,7 +32,7 @@ stem:["Amount" =  "Base amount" times ("Percentage" div 100)]
 ====
 
 
-.UBL example of Allowances and Charges on the document level where TAX = VAT.
+.UBL example of Allowances and Charges on the document level where TAX = GST.
 [source, xml, indent=0]
 ----
 include::{snippet-dir}/snippet-01.xml[tags=allowance]
