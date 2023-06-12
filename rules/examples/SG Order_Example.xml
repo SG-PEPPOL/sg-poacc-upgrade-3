@@ -209,7 +209,7 @@
 		<cbc:AllowanceChargeReason>Miscellaneous services</cbc:AllowanceChargeReason>
 		<cbc:Amount currencyID="SGD">400.00</cbc:Amount>
 		<cac:TaxCategory>
-			<cbc:ID>Z</cbc:ID>
+			<cbc:ID>ZR</cbc:ID>
 			<cbc:Percent>0</cbc:Percent>
 			<cac:TaxScheme>
 				<cbc:ID>GST</cbc:ID>
