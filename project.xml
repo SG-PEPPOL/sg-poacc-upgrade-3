@@ -23,12 +23,12 @@
     <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-order.xml</Path>
-        <Title>Peppol Order transaction 3.3 (T01)</Title>
+        <Title>Peppol Order transaction 3.4 (T01)</Title>
     </Resource>
     <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-order-response.xml</Path>
-        <Title>Peppol Order Response transaction 3.1 (T76)</Title>
+        <Title>Peppol Order Response transaction 3.2 (T76)</Title>
     </Resource>
     <Resource>
         <Type>Structure-1</Type>
@@ -78,7 +78,7 @@
         <Identifier>T01</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T01.sch</Path>
-        <Title>Business rules for Peppol Order transaction 3.2 </Title>
+        <Title>Business rules for Peppol Order transaction 3.4 </Title>
     </Resource>
 
 <!--    <Resource>
@@ -97,7 +97,7 @@
         <Identifier>T76</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T76.sch</Path>
-        <Title>Business rules for Peppol Order Response transaction 3.0</Title>
+        <Title>Business rules for Peppol Order Response transaction 3.2</Title>
     </Resource>
 <!--    <Resource>
         <Identifier>T77</Identifier>
@@ -109,7 +109,7 @@
         <Identifier>T110</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T110.sch</Path>
-        <Title>Business rules for Peppol Order Agreement transaction 3.0</Title>
+        <Title>Business rules for Peppol Order Agreement transaction 3.1</Title>
     </Resource>
   <!--  <Resource>
         <Identifier>T71</Identifier>

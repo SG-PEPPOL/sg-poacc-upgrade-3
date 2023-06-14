@@ -19,15 +19,15 @@
 	<cbc:ID>imrid001</cbc:ID>
 	<cbc:IssueDate>2017-12-01</cbc:IssueDate>
 	<cac:SenderParty>
-		<cbc:EndpointID schemeID="0195">SGUEN200254321Z</cbc:EndpointID>
+		<cbc:EndpointID schemeID="0196">6963495890</cbc:EndpointID>
 		<cac:PartyLegalEntity>
-			<cbc:RegistrationName>IMDA</cbc:RegistrationName>
+			<cbc:RegistrationName>Buyer organization</cbc:RegistrationName>
 		</cac:PartyLegalEntity>
 	</cac:SenderParty>
 	<cac:ReceiverParty>
-		<cbc:EndpointID schemeID="0195">SGUEN200212345Z</cbc:EndpointID>
+		<cbc:EndpointID schemeID="0196">6841569459</cbc:EndpointID>
 		<cac:PartyLegalEntity>
-			<cbc:RegistrationName>Gallery Photo Supplier</cbc:RegistrationName>
+			<cbc:RegistrationName>Seller company</cbc:RegistrationName>
 		</cac:PartyLegalEntity>
 	</cac:ReceiverParty>
 	<cac:DocumentResponse>
