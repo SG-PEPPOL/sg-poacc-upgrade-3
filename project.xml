@@ -15,7 +15,7 @@
 <!--    <Documentation path="profiles/36-mlr/">- Peppol BIS Message Level Response 3.0</Documentation>-->
     <Documentation path="profiles/63-invoiceresponse/">- Peppol BIS Invoice Response 3.2</Documentation>
 	<Documentation path="introduction/">About these specifications</Documentation>
-	<Documentation path="introduction/">Non-normative overview</Documentation>
+	<Documentation path="introduction/">Non-normative overview (Mind Map)</Documentation>
 	<Documentation path="../models/PEPPOL.Order.transaction.3.2.T01.html">- Order transaction</Documentation>
 	<Documentation path="../models/PEPPOL.Order.Response.transaction.3.0.T76.html">- Order response transaction</Documentation>
 	<Documentation path="../models/Peppol.BIS.Invoice.Response.3.1.html">- Invoice response transaction</Documentation>
