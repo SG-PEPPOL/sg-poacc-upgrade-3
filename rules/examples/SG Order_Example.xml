@@ -232,17 +232,17 @@
 		</cac:TaxCategory>
 	</cac:AllowanceCharge>
 	<cac:TaxTotal>
-		<cbc:TaxAmount currencyID="SGD">502.43</cbc:TaxAmount>
+		<cbc:TaxAmount currencyID="SGD">411.08</cbc:TaxAmount>
 	</cac:TaxTotal>
 	<cac:AnticipatedMonetaryTotal>
-		<cbc:LineExtensionAmount currencyID="SGD">6525.00</cbc:LineExtensionAmount>
-		<cbc:TaxExclusiveAmount currencyID="SGD">6272.50</cbc:TaxExclusiveAmount>
-		<cbc:TaxInclusiveAmount currencyID="SGD">6774.93</cbc:TaxInclusiveAmount>
+		<cbc:LineExtensionAmount currencyID="SGD">6525</cbc:LineExtensionAmount>
+		<cbc:TaxExclusiveAmount currencyID="SGD">6272.5</cbc:TaxExclusiveAmount>
+		<cbc:TaxInclusiveAmount currencyID="SGD">6683.58</cbc:TaxInclusiveAmount>
 		<cbc:AllowanceTotalAmount currencyID="SGD">652.50</cbc:AllowanceTotalAmount>
 		<cbc:ChargeTotalAmount currencyID="SGD">400.00</cbc:ChargeTotalAmount>
 		<cbc:PrepaidAmount currencyID="SGD">10.00</cbc:PrepaidAmount>
-		<cbc:PayableRoundingAmount currencyID="SGD">0.07</cbc:PayableRoundingAmount>
-		<cbc:PayableAmount currencyID="SGD">6765</cbc:PayableAmount>
+		<cbc:PayableRoundingAmount currencyID="SGD">0.42</cbc:PayableRoundingAmount>
+		<cbc:PayableAmount currencyID="SGD">6674</cbc:PayableAmount>
 	</cac:AnticipatedMonetaryTotal>
 	<cac:OrderLine>
 		<cbc:Note>Freetext note on line 1</cbc:Note>
