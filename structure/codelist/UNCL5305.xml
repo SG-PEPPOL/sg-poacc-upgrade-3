@@ -24,7 +24,28 @@
         <Name>Standard rate</Name>
         <Description>Customer accounting supply made by the customer on supplier’s behalf</Description>
     </Code>
-	
+
+	<Code>
+        <Id>SRRC</Id>
+        <Name>Reverse Charge</Name>
+        <Description>Reverse charge regime for Business-to-Business (“B2B”) supplies of imported services</Description>
+    </Code>
+
+	<Code>
+        <Id>SROVR-RS</Id>
+        <Name>Supply of remote services accountable by the electronic marketplace under the Overseas Vendor Registration Regime</Name>
+        <Description>Supply of remote services accountable by the electronic marketplace under the Overseas Vendor Registration Regime</Description>
+    </Code>
+	<Code>
+        <Id>SROVR-LVG</Id>
+        <Name>Supply of low-value goods accountable by the redeliverer or electronic marketplace on behalf of third-party suppliers</Name>
+        <Description>Supply of low-value goods accountable by the redeliverer or electronic marketplace on behalf of third-party suppliers</Description>
+    </Code>
+	<Code>
+        <Id>SRLVG</Id>
+        <Name>Own supply of low-value goods</Name>
+        <Description>Own supply of low-value goods</Description>
+    </Code>	
     <Code>
         <Id>ZR</Id>
         <Name>Zero rated</Name>
@@ -34,7 +55,7 @@
     <Code>
         <Id>ES33</Id>
         <Name>Exempt</Name>
-        <Description>CSpecific categories of exempt supplies listed under regulation 33 of the GST (General) Regulations</Description>
+        <Description>Specific categories of exempt supplies listed under regulation 33 of the GST (General) Regulations</Description>
     </Code>
 	
      <Code>
@@ -52,7 +73,15 @@
     <Code>
         <Id>OS</Id>
         <Name>Out-of-Scope supplies</Name>
-        <Description>Supplies outside the scope of the GST Act</Description>
+        <Description>Supplies outside the scope of the GST Act.
+Out-of-scope supplies are non-taxable supplies which include sale of good not brought into Singapore, sales of overseas goods made within the Free Trade Zone and Zero GST Warehouses and private transactions. These supplies need not be reported in their GST returns.
+</Description>
+    </Code>
+
+    <Code>
+        <Id>NA</Id>
+        <Name>Taxable supplies where GST need not be charged.</Name>
+        <Description>Such taxable supplies fall under specific GST schemes such as Gross Margin Scheme, Approved Marine Fuel Trader (AMFT) Scheme, Approved Third Party Logistics (3PL) Company Scheme</Description>
     </Code>
     
     <Code>
@@ -61,17 +90,9 @@
         <Description>Supplies from a company which is not registered for GST</Description>
     </Code>
 	
-	<Code>
-        <Id>SROVR</Id>
-        <Name>Overseas Vendor Registration, digital services</Name>
-        <Description>Overseas vendor registration regime for Business-to-Consumer (“B2C”) supplies of imported digital services</Description>
-    </Code>
+
 	
-	<Code>
-        <Id>SRRC</Id>
-        <Name>Reverse Charge</Name>
-        <Description>Reverse charge regime for Business-to-Business (“B2B”) supplies of imported services</Description>
-    </Code>
+
 <!--
     <Code>
         <Id>AE</Id>
