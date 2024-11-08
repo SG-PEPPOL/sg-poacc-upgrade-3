@@ -23,7 +23,7 @@
     <!-- <Documentation path="review/">Review of alignments</Documentation> -->
     <!-- <Documentation path="methodology/schematron/">Schematron guideline</Documentation> -->
     <!-- <Documentation path="work/rules/">Automatic/manual rules</Documentation> -->
-    <!-- Syntax -->
+    <!-- Syntax --> 
     <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-order.xml</Path>
