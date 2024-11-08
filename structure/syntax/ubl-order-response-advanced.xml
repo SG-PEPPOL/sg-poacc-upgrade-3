@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Structure xmlns="urn:fdc:difi.no:2017:vefa:structure-1">
-	<Term>OrderResponse</Term>
-
-
-	<Property key="sch:prefix">PEPPOL-T76</Property>
-	<Property key="sch:identifier">T76-basic</Property>
-
-
+	<Term>OrderResponseAdvanced</Term>
+	<Property key="sch:prefix">PEPPOL-T116</Property>
+	<Property key="sch:identifier">T116-basic</Property>
 	<Namespace prefix="ubl">urn:oasis:names:specification:ubl:schema:xsd:OrderResponse-2</Namespace>
 	<Namespace prefix="cac">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</Namespace>
 	<Namespace prefix="cbc">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</Namespace>
@@ -18,8 +14,7 @@
 			<Description>Identifies the specification of content and rules that apply to the
                 transaction.</Description>
 			<DataType>Identifier</DataType>
-			<Reference type="BUSINESS_TERM">tir76-001</Reference>
-
+			<Reference type="BUSINESS_TERM">tir116-001</Reference>
 			<Value type="EXAMPLE">urn:fdc:peppol.eu:poacc:trns:order_response:3</Value>
 		</Element>
 		<Element>
@@ -28,9 +23,8 @@
 			<Description>Identifies the BII profile or business process context in which the
                 transaction appears.</Description>
 			<DataType>Identifier</DataType>
-			<Reference type="BUSINESS_TERM">tir76-002</Reference>
-
-			<Value type="FIXED">urn:fdc:peppol.eu:poacc:bis:ordering:3</Value>
+			<Reference type="BUSINESS_TERM">tir116-002</Reference>
+			<Value type="FIXED">urn:fdc:peppol.eu:poacc:bis:advanced_ordering:3</Value>
 		</Element>
 		<Element>
 			<Term>cbc:ID</Term>
@@ -39,8 +33,7 @@
                 referencing the transaction for various purposes such as from other transactions
                 that are part of the same process.</Description>
 			<DataType>Identifier</DataType>
-			<Reference type="BUSINESS_TERM">tir76-003</Reference>
-
+			<Reference type="BUSINESS_TERM">tir116-003</Reference>
 			<Value type="EXAMPLE">or0987</Value>
 		</Element>
 		<Element cardinality="0..1">
@@ -48,7 +41,7 @@
 			<Name>Sales order reference</Name>
 			<Description>An identifier of a referenced sales order, issued by the Seller.</Description>
 			<DataType>Document Reference</DataType>
-			<Reference type="BUSINESS_TERM">tir76-p007</Reference>
+			<Reference type="BUSINESS_TERM">tir116-p007</Reference>
 			<Value type="EXAMPLE">112233</Value>
 		</Element>
 		<Element>
@@ -56,8 +49,7 @@
 			<Name>Order response issue date</Name>
 			<Description>The date on which the transaction instance was issued.</Description>
 			<DataType>Date</DataType>
-			<Reference type="BUSINESS_TERM">tir76-004</Reference>
-
+			<Reference type="BUSINESS_TERM">tir116-004</Reference>
 			<Value type="EXAMPLE">2018-05-15</Value>
 		</Element>
 		<Element cardinality="0..1">
@@ -65,7 +57,7 @@
 			<Name>Order response issue time</Name>
 			<Description>The time on which the transaction instance was issued</Description>
 			<DataType>Time</DataType>
-			<Reference type="BUSINESS_TERM">tir76-005</Reference>
+			<Reference type="BUSINESS_TERM">tir116-005</Reference>
 			<Value type="EXAMPLE">09:23:56</Value>
 		</Element>
 		<Element>
@@ -75,9 +67,9 @@
 				or is Accepted or Rejected as whole, alternatively, Accepted with change or already delivered. If response code is Accept or
                 Reject there may not be any response lines.</Description>
 			<DataType>Code</DataType>
-			<Reference type="BUSINESS_TERM">tir76-200</Reference>
+			<Reference type="BUSINESS_TERM">tir116-200</Reference>
 			<Reference type="CODE_LIST">UNCL4343-T76</Reference>
-			<Reference type="RULE">PEPPOL-T76-R007</Reference>
+			<Reference type="RULE">PEPPOL-T116-R007</Reference>
 			<Value type="EXAMPLE">AP</Value>
 		</Element>
 		<Element cardinality="0..1">
@@ -85,14 +77,13 @@
 			<Name>Response clarification</Name>
 			<Description>Clarification of the suppliers decision.</Description>
 			<DataType>Text</DataType>
-			<Reference type="BUSINESS_TERM">tir76-006</Reference>
+			<Reference type="BUSINESS_TERM">tir116-006</Reference>
 		</Element>
 		<Element>
 			<Term>cbc:DocumentCurrencyCode</Term>
 			<Name>Document currency</Name>
 			<Description>The default currency for the offer.</Description>
-			<Reference type="BUSINESS_TERM">tir76-007</Reference>
-
+			<Reference type="BUSINESS_TERM">tir116-007</Reference>
 			<Reference type="CODE_LIST">ISO4217</Reference>
 			<Value type="EXAMPLE">EUR</Value>
 		</Element>
@@ -106,7 +97,7 @@
 			<Reference type="BUSINESS_TERM">tir110-044</Reference>
 			<Value type="EXAMPLE">abc123</Value>
 		</Element>
-		<Element>
+		<Element cardinality="1..1">
 			<Term>cac:OrderReference</Term>
 			<Name>Order reference</Name>
 			<Element>
@@ -114,9 +105,20 @@
 				<Name>Order document reference</Name>
 				<Description>Used to reference the order that is being responded to.</Description>
 				<DataType>Document reference</DataType>
-				<Reference type="BUSINESS_TERM">tir76-011</Reference>
-
+				<Reference type="BUSINESS_TERM">tir116-011</Reference>
 				<Value type="EXAMPLE">o-23424</Value>
+			</Element>
+		</Element>
+		<Element cardinality="0..1">
+			<Term>cac:OrderChangeDocumentReference</Term>
+			<Name>Order change reference</Name>
+			<Element>
+				<Term>cbc:ID</Term>
+				<Name>Order change document reference</Name>
+				<Description>Used to reference the order change that is being responded to.</Description>
+				<DataType>Document reference</DataType>
+				<Reference type="BUSINESS_TERM">tir116-208</Reference>
+					<Value type="EXAMPLE">c-23424</Value>
 			</Element>
 		</Element>
 		<Element>
@@ -130,7 +132,7 @@
 					<Name>Seller party electronic address</Name>
 					<Description>Identifies the seller party's electronic address</Description>
 					<DataType>Identifier</DataType>
-					<Reference type="BUSINESS_TERM">tir76-058</Reference>
+					<Reference type="BUSINESS_TERM">tir116-058</Reference>
 					<Attribute>
 						<Term>schemeID</Term>
 						<Name>Scheme identifier</Name>
@@ -143,13 +145,13 @@
 				<Element cardinality="0..n">
 					<Term>cac:PartyIdentification</Term>
 					<Name>Seller identification </Name>
-					<Reference type="RULE">PEPPOL-T76-R002</Reference>
+					<Reference type="RULE">PEPPOL-T116-R002</Reference>
 					<Element>
 						<Term>cbc:ID</Term>
 						<Name>Seller party identification</Name>
 						<Description>Identifies a party.</Description>
 						<DataType>Identifier</DataType>
-						<Reference type="BUSINESS_TERM">tir76-059</Reference>
+						<Reference type="BUSINESS_TERM">tir116-059</Reference>
 
 						<Attribute usage="optional">
 							<Term>schemeID</Term>
@@ -165,14 +167,14 @@
 				<Element cardinality="0..1">
 					<Term>cac:PartyLegalEntity</Term>
 					<Name>Name of seller</Name>
-					<Reference type="RULE">PEPPOL-T76-R002</Reference>
+					<Reference type="RULE">PEPPOL-T116-R002</Reference>
 
 					<Element>
 						<Term>cbc:RegistrationName</Term>
 						<Name>Seller party name</Name>
 						<Description>The name of the party.</Description>
 						<DataType>Text</DataType>
-						<Reference type="BUSINESS_TERM">tir76-060</Reference>
+						<Reference type="BUSINESS_TERM">tir116-060</Reference>
 						<Value type="EXAMPLE">Seller Inc.</Value>
 					</Element>
 				</Element>
@@ -190,7 +192,7 @@
 					<Name>Buyer party electronic address</Name>
 					<Description>Identifies the buyer party's electronic address</Description>
 					<DataType>Identifier</DataType>
-					<Reference type="BUSINESS_TERM">tir76-021</Reference>
+					<Reference type="BUSINESS_TERM">tir116-021</Reference>
 					<Attribute>
 						<Term>schemeID</Term>
 						<Name>Scheme identifier</Name>
@@ -203,12 +205,12 @@
 				<Element cardinality="0..n">
 					<Term>cac:PartyIdentification</Term>
 					<Name>Buyer identification</Name>
-					<Reference type="RULE">PEPPOL-T76-R001</Reference>
+					<Reference type="RULE">PEPPOL-T116-R001</Reference>
 					<Element>
 						<Term>cbc:ID</Term>
 						<Name>Buyer party identification</Name>
 						<Description>An identification for the buyer party.</Description>
-						<Reference type="BUSINESS_TERM">tir76-022</Reference>
+						<Reference type="BUSINESS_TERM">tir116-022</Reference>
 
 
 						<Attribute usage="optional">
@@ -225,7 +227,7 @@
 				<Element cardinality="0..1">
 					<Term>cac:PartyLegalEntity</Term>
 					<Name>Party name</Name>
-					<Reference type="RULE">PEPPOL-T76-R001</Reference>
+					<Reference type="RULE">PEPPOL-T116-R001</Reference>
 
 					<Element>
 						<Term>cbc:RegistrationName</Term>
@@ -233,8 +235,8 @@
 						<Description>The name of the party who ordered the items and receives the
 							response.</Description>
 						<DataType>Text</DataType>
-						<Reference type="BUSINESS_TERM">tir76-023</Reference>
-						<Reference type="RULE">PEPPOL-T76-R001</Reference>
+						<Reference type="BUSINESS_TERM">tir116-023</Reference>
+						<Reference type="RULE">PEPPOL-T116-R001</Reference>
 						<Value type="EXAMPLE">Buyer name</Value>
 					</Element>
 				</Element>
@@ -253,17 +255,18 @@
 					<Description>The date on which the period starts. The start dates counts as
                         part of the period.</Description>
 					<DataType>date</DataType>
-					<Reference type="BUSINESS_TERM">tir76-099</Reference>
-					<Reference type="RULE">PEPPOL-T76-R004</Reference>
+					<Reference type="BUSINESS_TERM">tir116-099</Reference>
+					<Reference type="RULE">PEPPOL-T116-R004</Reference>
 					<Value type="EXAMPLE">2018-06-01</Value>
 				</Element>
 				<Element cardinality="0..1">
 					<Term>cbc:StartTime</Term>
 					<Name>Period start time</Name>
-					<Description>The time at which this period begins. Format = "hh:mm:ss"</Description>
+					<Description>The time on which the period starts. The start time
+						counts as part of the period.</Description>
 					<DataType>Time</DataType>
-					<Reference type="BUSINESS_TERM">tir76-p010</Reference>
-					<Value type="EXAMPLE">12:30:00</Value>
+					<Reference type="BUSINESS_TERM">tir116-202</Reference>
+					<Value type="EXAMPLE">22:00:00</Value>
 				</Element>
 				<Element cardinality="0..1">
 					<Term>cbc:EndDate</Term>
@@ -271,17 +274,18 @@
 					<Description>The date on which the period ends. The end date counts as part of
                         the period.</Description>
 					<DataType>Date</DataType>
-					<Reference type="BUSINESS_TERM">tir76-100</Reference>
-					<Reference type="RULE">PEPPOL-T76-R004</Reference>
+					<Reference type="BUSINESS_TERM">tir116-100</Reference>
+					<Reference type="RULE">PEPPOL-T116-R004</Reference>
 					<Value type="EXAMPLE">2018-06-30</Value>
 				</Element>
 				<Element cardinality="0..1">
 					<Term>cbc:EndTime</Term>
 					<Name>Period end time</Name>
-					<Description>The time at which this period end. Format = "hh:mm:ss"</Description>
+					<Description>The time on which the period ends. The end time
+						counts as part of the period.</Description>
 					<DataType>Time</DataType>
-					<Reference type="BUSINESS_TERM">tir76-p011</Reference>
-					<Value type="EXAMPLE">18:00:00</Value>
+					<Reference type="BUSINESS_TERM">tir116-203</Reference>
+					<Value type="EXAMPLE">24:00:00</Value>
 				</Element>
 			</Element>
 		</Element>
@@ -296,8 +300,8 @@
 					<Name>Document line identifier</Name>
 					<Description>Identifies the response line. Each order response line MUST be unique within the order response.</Description>
 					<DataType>Identifier</DataType>
-					<Reference type="BUSINESS_TERM">tir76-120</Reference>
-					<Reference type="RULE">PEPPOL-T76-R003</Reference>
+					<Reference type="BUSINESS_TERM">tir116-120</Reference>
+					<Reference type="RULE">PEPPOL-T116-R003</Reference>
 					<Value type="EXAMPLE">3</Value>
 				</Element>
 				<Element cardinality="0..1">
@@ -306,7 +310,7 @@
 					<Description>Clarifacation of the suppliers decision for the
                         line.</Description>
 					<DataType>Text</DataType>
-					<Reference type="BUSINESS_TERM">tir76-204</Reference>
+					<Reference type="BUSINESS_TERM">tir116-204</Reference>
 					<Value type="EXAMPLE">Please note our offices are closed in July, all orders received will be processed in August</Value>
 				</Element>
 				<Element>
@@ -315,9 +319,8 @@
 					<Description>A code that indicates whether the referenced order line as whole
                         is Accepted or Rejected or, alternatively, Accepted with
                         change.</Description>
-					<Reference type="BUSINESS_TERM">tir76-202</Reference>
+					<Reference type="BUSINESS_TERM">tir116-202</Reference>
 					<Reference type="CODE_LIST">UNCL1229</Reference>
-
 					<Value type="EXAMPLE">3</Value>
 				</Element>
 				<Element cardinality="0..1">
@@ -325,7 +328,7 @@
 					<Name>Quantity</Name>
 					<Description>The quantity of items that will be delivered.</Description>
 					<DataType>Quantity</DataType>
-					<Reference type="BUSINESS_TERM">tir76-132</Reference>
+					<Reference type="BUSINESS_TERM">tir116-132</Reference>
 					<Attribute>
 						<Term>unitCode</Term>
 						<Name>Ordered quantity unit of measure</Name>
@@ -343,13 +346,13 @@
 						A unit for the backordered quantity is the same as for the Quantity.
 						If none of the remaining quantity for the response line is to be delivered, use 0 "zero".</Description>
 					<DataType>Quantity</DataType>
-					<Reference type="BUSINESS_TERM">tir76-p005</Reference>
+					<Reference type="BUSINESS_TERM">tir116-p005</Reference>
 					<Value type="EXAMPLE">3</Value>
 				</Element>
 				<Element cardinality="0..1">
 					<Term>cac:Delivery</Term>
 					<Name>Delivery information</Name>
-					<Element>
+					<Element cardinality="0..1">
 						<Term>cac:PromisedDeliveryPeriod</Term>
 						<Name>Delivery period</Name>
 						<Element cardinality="0..1">
@@ -358,34 +361,37 @@
 							<Description>The date on which the period starts. The start dates
                                 counts as part of the period.</Description>
 							<DataType>Date</DataType>
-							<Reference type="BUSINESS_TERM">tir76-126</Reference>
-							<Reference type="RULE">PEPPOL-T76-R004</Reference>
+							<Reference type="BUSINESS_TERM">tir116-126</Reference>
+							<Reference type="RULE">PEPPOL-T116-R004</Reference>
 							<Value type="EXAMPLE">2018-05-28</Value>
 						</Element>
 						<Element cardinality="0..1">
 							<Term>cbc:StartTime</Term>
 							<Name>Period start time</Name>
-							<Description>The time at which this period begins. Format = "hh:mm:ss"</Description>
+							<Description>The time on which the period starts. The start time
+								counts as part of the period.</Description>
 							<DataType>Time</DataType>
-							<Reference type="BUSINESS_TERM">tir76-p012</Reference>
-							<Value type="EXAMPLE">12:30:00</Value>
+							<Reference type="BUSINESS_TERM">tir116-204</Reference>
+							<Value type="EXAMPLE">22:00:00</Value>
 						</Element>
 						<Element cardinality="0..1">
 							<Term>cbc:EndDate</Term>
 							<Name>Period end date</Name>
-							<Description>The date on which the period ends. The end date counts as part of the period.</Description>
+							<Description>The date on which the period ends. The end date counts as
+                                part of the period.</Description>
 							<DataType>Date</DataType>
-							<Reference type="BUSINESS_TERM">tir76-127</Reference>
-							<Reference type="RULE">PEPPOL-T76-R004</Reference>
+							<Reference type="BUSINESS_TERM">tir116-127</Reference>
+							<Reference type="RULE">PEPPOL-T116-R004</Reference>
 							<Value type="EXAMPLE">2018-05-29</Value>
 						</Element>
 						<Element cardinality="0..1">
 							<Term>cbc:EndTime</Term>
 							<Name>Period end time</Name>
-							<Description>The time at which this period end. Format = "hh:mm:ss"</Description>
+							<Description>The time on which the period ends. The end time
+								counts as part of the period.</Description>
 							<DataType>Time</DataType>
-							<Reference type="BUSINESS_TERM">tir76-p013</Reference>
-							<Value type="EXAMPLE">18:00:00</Value>
+							<Reference type="BUSINESS_TERM">tir116-205</Reference>
+							<Value type="EXAMPLE">24:00:00</Value>
 						</Element>
 					</Element>
 				</Element>
@@ -403,12 +409,12 @@
                             The net price of the item including all allowances, charges and taxes
                             but exluding TAX.</Description>
 						<DataType>Price amount</DataType>
-						<Reference type="BUSINESS_TERM">tir76-130</Reference>
+						<Reference type="BUSINESS_TERM">tir116-130</Reference>
 						<Attribute>
 							<Term>currencyID</Term>
 							<Description>Currency identifier, must have the same value as element "Document currency".</Description>
 							<Reference type="CODE_LIST">ISO4217</Reference>
-							<Reference type="RULE">PEPPOL-T76-R004</Reference>
+							<Reference type="RULE">PEPPOL-T116-R004</Reference>
 							<Value type="EXAMPLE">EUR</Value>
 						</Attribute>
 						<Value type="EXAMPLE">1000.00</Value>
@@ -418,7 +424,7 @@
 						<Name>Item price base quantity</Name>
 						<Description>The actual quantity to which the price applies.</Description>
 						<DataType>Quantity</DataType>
-						<Reference type="BUSINESS_TERM">tir76-131</Reference>
+						<Reference type="BUSINESS_TERM">tir116-131</Reference>
 						<Attribute>
 							<Term>unitCode</Term>
 							<Name>Base quantity unit of measure</Name>
@@ -440,7 +446,7 @@
                             a Catalogue, as distinct from a description. A short name for the
                             item.</Description>
 						<DataType>Text</DataType>
-						<Reference type="BUSINESS_TERM">tir76-205</Reference>
+						<Reference type="BUSINESS_TERM">tir116-205</Reference>
 						<Value type="EXAMPLE">Copy paper, 500 sheets</Value>
 					</Element>
 					<Element cardinality="0..1">
@@ -454,7 +460,7 @@
 								item. Associates the item with its identification according to the
 								buyer's system. </Description>
 							<DataType>Identifier</DataType>
-							<Reference type="BUSINESS_TERM">tir76-p006</Reference>
+							<Reference type="BUSINESS_TERM">tir116-p006</Reference>
 							<Value type="EXAMPLE">111111</Value>
 						</Element>
 					</Element>
@@ -469,7 +475,7 @@
 								item. Associates the item with its identification according to the
 								seller's system. </Description>
 							<DataType>Identifier</DataType>
-							<Reference type="BUSINESS_TERM">tir76-206</Reference>
+							<Reference type="BUSINESS_TERM">tir116-206</Reference>
 
 							<Value type="EXAMPLE">3249834</Value>
 						</Element>
@@ -483,7 +489,7 @@
 							<Description>An item identifier based on a registered scheme. Associates
 								the item with its identification according to a standard system.</Description>
 							<DataType>Identifier</DataType>
-							<Reference type="BUSINESS_TERM">tir76-207</Reference>
+							<Reference type="BUSINESS_TERM">tir116-207</Reference>
 
 							<Attribute>
 								<Term>schemeID</Term>
@@ -505,7 +511,7 @@
 					<Term>cbc:ID</Term>
 					<Name>Substituted Line Item Identifier </Name>
 					<Description>Identifier of the substituted line item </Description>
-					<Reference type="BUSINESS_TERM">tir76-p002</Reference>
+					<Reference type="BUSINESS_TERM">tir116-p002</Reference>
 					<Value type="EXAMPLE">3</Value>
 				</Element>
 				<Element>
@@ -518,7 +524,7 @@
                             a Catalogue, as distinct from a description. A short name for the
                             item.</Description>
 						<DataType>Text</DataType>
-						<Reference type="BUSINESS_TERM">tir76-134</Reference>
+						<Reference type="BUSINESS_TERM">tir116-134</Reference>
 						<Value type="EXAMPLE">Copy paper, 1000 sheets</Value>
 					</Element>
 					<Element cardinality="0..1">
@@ -531,7 +537,7 @@
                                 item. Associates the item with its identification according to the
                                 seller's system. </Description>
 							<DataType>Identifier</DataType>
-							<Reference type="BUSINESS_TERM">tir76-135</Reference>
+							<Reference type="BUSINESS_TERM">tir116-135</Reference>
 							<Value type="EXAMPLE">3249834</Value>
 						</Element>
 					</Element>
@@ -544,7 +550,7 @@
 							<Description>An item identifier based on a registered scheme. Associates
                                 the item with its identification according to a standard system.</Description>
 							<DataType>Identifier</DataType>
-							<Reference type="BUSINESS_TERM">tir76-136</Reference>
+							<Reference type="BUSINESS_TERM">tir116-136</Reference>
 							<Attribute>
 								<Term>schemeID</Term>
 								<Name>Item standard identifier identification scheme identifier</Name>
@@ -565,7 +571,7 @@
                                 allow grouping of similar items for a various purposes e.g. public
                                 procurement (CPV), e-Commerce (UNSPSC) etc.</Description>
 							<DataType>Code</DataType>
-							<Reference type="BUSINESS_TERM">tir76-149</Reference>
+							<Reference type="BUSINESS_TERM">tir116-149</Reference>
 							<Attribute>
 								<Term>listID</Term>
 								<Name>Item classification identifier identification scheme identifier</Name>
@@ -583,9 +589,9 @@
 								<Term>name</Term>
 								<Name>Clear text name equivalent of classification code</Name>
 								<Description>The textual equivalent of the code value</Description>
-								<Value type="EXAMPLE">Office furniture</Value>	
-							</Attribute>							
-							
+								<Value type="EXAMPLE">Office furniture</Value>
+							</Attribute>
+
 						</Element>
 					</Element>
 					<Element cardinality="0..1">
@@ -596,8 +602,9 @@
 							<Name>Item TAX category code</Name>
 							<Description>The TAX category code for the item.</Description>
 							<DataType>Code</DataType>
-							<Reference type="BUSINESS_TERM">tir76-150</Reference>
+							<Reference type="BUSINESS_TERM">tir116-150</Reference>
 
+							<Reference type="CODE_LIST">UNCL5305</Reference>
 							<Value type="EXAMPLE">S</Value>
 						</Element>
 						<Element cardinality="0..1">
@@ -616,8 +623,8 @@
 								<Term>cbc:ID</Term>
 								<Description>Tax scheme. E.g. “VAT” or “GST”</Description>
 								<DataType>Identifier</DataType>
-								<Reference type="BUSINESS_TERM">tir76-p003</Reference>
-								<Value type="EXAMPLE">VAT or GST</Value>
+								<Reference type="BUSINESS_TERM">tir116-p003</Reference>
+								<Value type="EXAMPLE">GST</Value>
 							</Element>
 						</Element>
 					</Element>
@@ -632,7 +639,7 @@
                                 descriptive to define the value. The definition may be supplemented
                                 with the property unit of measure when relevant.</Description>
 							<DataType>Text</DataType>
-							<Reference type="BUSINESS_TERM">tir76-138</Reference>
+							<Reference type="BUSINESS_TERM">tir116-138</Reference>
 							<Value type="EXAMPLE">Color</Value>
 						</Element>
 						<Element cardinality="0..1">
@@ -640,7 +647,7 @@
 							<Name>Item property code</Name>
 							<Description>Code for the item property according to a property code system.</Description>
 							<DataType>Code</DataType>
-							<Reference type="BUSINESS_TERM">tir76-p004</Reference>
+							<Reference type="BUSINESS_TERM">tir116-p004</Reference>
 							<Attribute>
 								<Term>listID</Term>
 								<Name>Name code list id.</Name>
@@ -652,7 +659,7 @@
 							<Name>Item property value</Name>
 							<Description>The value of the item property.</Description>
 							<DataType>Text</DataType>
-							<Reference type="BUSINESS_TERM">tir76-139</Reference>
+							<Reference type="BUSINESS_TERM">tir116-139</Reference>
 							<Value type="EXAMPLE">Red</Value>
 						</Element>
 						<Element cardinality="0..1">
@@ -662,7 +669,7 @@
                                 if relevant. May not be relevant when properties are
                                 descriptive.</Description>
 							<DataType>Quantity</DataType>
-							<Reference type="BUSINESS_TERM">tir76-p008</Reference>
+							<Reference type="BUSINESS_TERM">tir116-p008</Reference>
 
 							<Attribute>
 								<Term>unitCode</Term>
@@ -679,7 +686,7 @@
 							<Name>Property classification</Name>
               <Description>Standardized and predefined classification of items properties.</Description>
 							<DataType>Text</DataType>
-							<Reference type="BUSINESS_TERM">tir76-p009</Reference>
+							<Reference type="BUSINESS_TERM">tir116-p009</Reference>
 						</Element>
 					</Element>
 				</Element>
@@ -692,7 +699,7 @@
 					<Name>Order line reference</Name>
 					<Description>Used to reference the initial order line that correspondes to the
 						response.All order lines should be stated when an order is changed.</Description>
-					<Reference type="BUSINESS_TERM">tir76-201</Reference>
+					<Reference type="BUSINESS_TERM">tir116-201</Reference>
 
 					<Value type="EXAMPLE">34</Value>
 				</Element>
