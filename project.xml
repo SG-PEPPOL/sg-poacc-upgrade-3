@@ -329,7 +329,7 @@
      <Resource>
         <Type>native:File</Type>
         <Path>project.xml</Path>
-        <Title>UBL Order, Order Response, Application Response XML Schemas</Title>
+        <Title>UBL XML Schemas (for each transaction)</Title>
         <Property key="download">UBL-AppResp-Ord-OrdResp-xsd.zip</Property>
         <Property key="filename">UBL-AppResp-Ord-OrdResp-xsd.zip</Property>
     </Resource>
