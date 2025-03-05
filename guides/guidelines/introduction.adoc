@@ -1,8 +1,6 @@
-= Implementation handbook for trade with Singapore governmental entities
+= Introduction
 [horizontal]
 
-
-== Introduction
 * Purpose of the handbook
 * the context and which cases the handbook is used
 * reference the Advanced ordering and the statement that the agreement between buyer/seller decides which functions that are used
