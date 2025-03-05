@@ -1,0 +1,5 @@
+= Benefits
+[horizontal]
+
+* Benefit 1
+* Benefit 2

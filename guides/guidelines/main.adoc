@@ -1,0 +1,18 @@
+= Implementation handbook for trade with Singapore governmental entities
+Updated date:: 2025-03-05
+:icons: font
+:source-highlighter: coderay
+:toc: left
+:toclevels: 2
+:sourcedir: .
+
+:leveloffset: +1
+
+include::introduction.adoc
+include::audience.adoc
+include::benefits.adoc
+include::processinstructions.adoc
+include::typical-use-case.adoc
+include::check-list.adoc
+
+:leveloffset: -1

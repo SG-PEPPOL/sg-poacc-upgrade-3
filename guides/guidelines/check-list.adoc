@@ -1,0 +1,14 @@
+= Check list for vendors and solution providers
+[horizontal]
+
+Check list for solution vendors
+
+* [ ] Task 1
+* [ ] Task 2
+* [ ] Task 3
+
+Check list for solution providers
+
+* [ ] Task 1
+* [ ] Task 2
+* [ ] Task 3

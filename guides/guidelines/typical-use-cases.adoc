@@ -1,0 +1,8 @@
+= Typical use cases
+[horizontal]
+
+== Use case 1 - Initial order
+
+== Use case 2 - Change to orderlines
+
+== Use case 3 - Cancellation of to order 

@@ -1,0 +1,9 @@
+= Process instructions
+[horizontal]
+
+The advanced ordering is a process that....
+
+== Specific instructions on the process and message flow
+* What not to do
+* What must be done
+* What to do in case of delivery issues
