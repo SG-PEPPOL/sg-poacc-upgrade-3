@@ -7,7 +7,7 @@ Check list for solution vendors
 * [ ] Task 2
 * [ ] Task 3
 
-Check list for solution providers
+Check list for vendors
 
 * [ ] Task 1
 * [ ] Task 2

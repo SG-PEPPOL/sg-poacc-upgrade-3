@@ -20,25 +20,19 @@ docker run --rm -i -v $PROJECT:/src anskaffelser/validator:2.1.0 build -x -t -n 
 for sch in $PROJECT/rules/sch/*.sch; do
     docker run --rm -i -v $PROJECT:/src -v $PROJECT/target/schematron:/target klakegg/schematron prepare /src/rules/sch/$(basename $sch) /target/$(basename $sch)
 done
-#docker run --rm -i -v $PROJECT/target/site/files:/src alpine:3.6 rm -rf /src/SG-PEPPOLBIS-eDocs-Schematron.zip
-#docker run --rm -i -v $PROJECT/target/schematron:/src -v $PROJECT/target/site/files:/target -w /src kramos/alpine-zip -r /target/SG-PEPPOLBIS-eDocs-Schematron.zip .
 
-rm -rf $PROJECT/target/site/files/SG-PEPPOLBIS-eDocs-Schematron.zip
+# Fix ownership
+docker run --rm -i -v $PROJECT:/src alpine:3.6 chown -R $(id -g $USER).$(id -g $USER) /src/target
 
-cd $PROJECT
-zip -r target/site/files/SG-PEPPOLBIS-eDocs-Schematron.zip rules/sch
-
-# Example files
-#docker run --rm -i -v $PROJECT/target/site/files:/src alpine:3.6 rm -rf /src/SG-PEPPOLBIS-eDocs-Examples.zip
-#docker run --rm -i -v $PROJECT/rules/examples:/src -v $PROJECT/target/site/files:/target -w /src kramos/alpine-zip -r /target/SG-PEPPOLBIS-eDocs-Examples.zip .
+sudo rm -rf $PROJECT/target/site/files/SG-PEPPOLBIS-eDocs-Schematron.zip
 rm -rf $PROJECT/target/site/files/SG-PEPPOLBIS-eDocs-Examples.zip
 
-cd $PROJECT
-zip -r target/site/files/SG-PEPPOLBIS-eDocs-Examples.zip rules/examples 
+cd $PROJECT/target
+sudo zip -r site/files/SG-PEPPOLBIS-eDocs-Schematron.zip schematron/
 
-# UBL XSD
-#docker run --rm -i -v $PROJECT/target/site/files:/src alpine:3.6 rm -rf /src/UBL-AppResp-Ord-OrdResp-xsd.zip
-#docker run --rm -i -v $PROJECT/ubl-xsd:/src -v $PROJECT/target/site/files:/target -w /src kramos/alpine-zip -r /target/UBL-AppResp-Ord-OrdResp-xsd.zip .
+cd $PROJECT
+sudo zip -r target/site/files/SG-PEPPOLBIS-eDocs-Examples.zip rules/examples 
+
 
 rm -rf $PROJECT/target/site/files/UBL-AppResp-Ord-OrdResp-xsd.zip
 
