@@ -28,7 +28,6 @@ cac:OrderLineReference/cbc:LineID
 | => Invoice/cbc:BuyerReference
 
 | Payment terms
-(sub-business unit)
 | Order/cac:PaymentTerms/cbc:Note
 | => Invoice/cac:PaymentTerms/cbc:Note
 |===
