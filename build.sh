@@ -25,7 +25,7 @@ done
 docker run --rm -i -v $PROJECT:/src alpine:3.6 chown -R $(id -g $USER).$(id -g $USER) /src/target
 
 sudo rm -rf $PROJECT/target/site/files/SG-PEPPOLBIS-eDocs-Schematron.zip
-rm -rf $PROJECT/target/site/files/SG-PEPPOLBIS-eDocs-Examples.zip
+sudo rm -rf $PROJECT/target/site/files/SG-PEPPOLBIS-eDocs-Examples.zip
 
 cd $PROJECT/target
 sudo zip -r site/files/SG-PEPPOLBIS-eDocs-Schematron.zip schematron/

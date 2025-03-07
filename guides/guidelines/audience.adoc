@@ -1,6 +1,6 @@
 = Audience
 [horizontal]
 
-* Vendors/Suppliers to sg gov
+* Vendors/Suppliers to Singapore government buyers who want to use their own solution to receive orders
 * Solution providers implementing support in ERPs
 * Trainers, consultants and others who supports and gives advice on implememtation of electronic trade
