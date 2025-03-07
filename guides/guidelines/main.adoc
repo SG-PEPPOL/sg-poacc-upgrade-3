@@ -16,8 +16,10 @@ include::benefits.adoc[]
 
 include::processinstructions.adoc[]
 
+include::information-req-instructions.adoc[]
+
 include::typical-use-cases.adoc[]
 
-include::check-list.adoc[]
+//include::check-list.adoc[]
 
 :leveloffset: -1

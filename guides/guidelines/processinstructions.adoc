@@ -1,38 +1,27 @@
 = Process instructions
 [horizontal]
 
-== About the process
-Peppol BIS Advanced Ordering is made up of a set of subprocesses that allow both the buyer and the seller to make changes or cancellations to an order. The subprocesses are:
-
-*Buyer's processes*
-
-* Place initial order  
-* Change the order  
-* Cancel the order  
-
-*Seller's processes*
-
-* Change the order  
-* Cancel the order  
-
-However, in the context of trade with Singapore government buyers using this BIS, the seller is not allowed to use electonic messages through Peppol to change or cancel an order after it has been placed. Only the buyer has the possibility to manage the order after submission, which includes, making changes or cancelling the initital order.  
+In the context of trade with Singapore government buyers using this BIS, the seller is not allowed to use electronic messages through Peppol to propose change or cancel an order after it has been placed. Only the buyer has the possibility to manage the order after submission, which includes, making changes or cancelling the initial order.
 
 For these actions, the following Peppol transactions are used by the buyer:
 
 * To place the initial order - *Peppol Order transaction (T01)*.  
-* To cancel an order - *Peppol Order Cancellation transaction (T115)* .  
+* To cancel an order - *Peppol Order Cancellation transaction (T115)*.
 * To change an order - *Peppol Order Change transaction (T114)*.  
 
 ****
-NOTE: When the *seller* needs to change or cancel an order, they must contact the buyer directly using contact channels defined in their contract (such as by phone or email).
+NOTE: When the *seller* needs to propose a change or cancel an order, they must contact the buyer directly using contact channels defined in their contract (such as by phone or email).
 ****
 
 == Responding to the order
-The Peppol BIS Advanced ordering describes how the seller can respond to the Order, Order Change and Order Cancellation using the Order response message. This reception functionality is not available currently for the Singapore government buyers and seller should not send the Order response.
+The Peppol BIS Advanced ordering describes how the seller can respond to the Order, Order Change and Order Cancellation using the Order response message. Howeverm The Singapore government buyers do not currently have reception functionality for the Order response and the seller should therefor not send the response as an electonic message.
 
 ****
-NOTE: When the *seller* can't accept an order order, they must contact the buyer directly using contact channels defined in their contract (such as by phone or email).
+NOTE: When the *seller* can't accept an order, they must contact the buyer directly using contact channels defined in their contract (such as by phone or email).
 ****
 
+****
+NOTE: When the *seller* accepts the order, they don't need to respond. The order is considered accepted, unless the seller contacts the buyer directly using contact channels defined in their contract (such as by phone or email).
+****
 
 

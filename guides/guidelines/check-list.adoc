@@ -1,14 +1,8 @@
 = Check list for vendors and solution providers
 [horizontal]
 
-Check list for solution vendors
+Check list for sellers
 
-* [ ] Task 1
-* [ ] Task 2
-* [ ] Task 3
-
-Check list for vendors
-
-* [ ] Task 1
-* [ ] Task 2
+* [ ] Make sure to register as receiver in Peppol for Order, OrderChange and OrderCancellation.
+* [ ] Verify that contact in
 * [ ] Task 3

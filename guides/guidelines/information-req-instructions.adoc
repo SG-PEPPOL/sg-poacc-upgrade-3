@@ -1,0 +1,34 @@
+= Issuing invoice based on the order
+[horizontal]
+
+Some information elements in the Order is used when issuing the Invoice. The seller needs to ensure that these elements are properly placed in the Invoice format.
+
+=== Mapping of information from Order to Invoice
+
+The following table shows the proper mapping between the order and the invoice
+[cols="1,1,1", options="header"]
+|===
+| Business term | Location in Order | Location in Invoice
+
+| Order Identifier
+| Order/cbc:ID
+| Invoice/cac:OrderReference/cbc:ID
+
+| Order Line Identifier
+QUESTION: ARE LINE REFERENCES REQUIRED?
+| Order/cac:OrderLine/
+cac:LineItem/cbc:ID
+| Invoice/cac:InvoiceLine/
+cac:OrderLineReference/cbc:LineID
+
+| Buyer reference
+(sub-business unit)
+| Order/cbc:CustomerReference
+| Invoice/cbc:BuyerReference
+
+| Payment terms
+(sub-business unit)
+| Order/cac:PaymentTerms/cbc:Note
+| Invoice/cac:PaymentTerms/cbc:Note
+|===
+
