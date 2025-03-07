@@ -23,22 +23,16 @@ For these actions, the following Peppol transactions are used by the buyer:
 * To cancel an order - *Peppol Order Cancellation transaction (T115)* .  
 * To change an order - *Peppol Order Change transaction (T114)*.  
 
-
-NOTE:
 ****
-When the *seller* needs to change or cancel an order, they must contact the buyer directly using contact channels defined in their contract (such as by phone or email).
+NOTE: When the *seller* needs to change or cancel an order, they must contact the buyer directly using contact channels defined in their contract (such as by phone or email).
 ****
-
-
-TIP:
-****
-When the *seller* needs to change or cancel an order, they must contact the buyer directly using contact channels defined in their contract (such as by phone or email).
-****
-
 
 == Responding to the order
-There
+The Peppol BIS Advanced ordering describes how the seller can respond to the Order, Order Change and Order Cancellation using the Order response message. This reception functionality is not available currently for the Singapore government buyers and seller should not send the Order response.
 
+****
+NOTE: When the *seller* can't accept an order order, they must contact the buyer directly using contact channels defined in their contract (such as by phone or email).
+****
 
 
 
