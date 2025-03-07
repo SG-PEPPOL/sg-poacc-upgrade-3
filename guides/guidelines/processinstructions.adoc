@@ -24,14 +24,14 @@ For these actions, the following Peppol transactions are used by the buyer:
 * To change an order - *Peppol Order Change transaction (T114)*.  
 
 
-****
 NOTE:
+****
 When the *seller* needs to change or cancel an order, they must contact the buyer directly using contact channels defined in their contract (such as by phone or email).
 ****
 
 
-****
 TIP:
+****
 When the *seller* needs to change or cancel an order, they must contact the buyer directly using contact channels defined in their contract (such as by phone or email).
 ****
 
