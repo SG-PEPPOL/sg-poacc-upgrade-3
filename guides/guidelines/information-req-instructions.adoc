@@ -1,11 +1,12 @@
 = Issuing invoice based on the order
 [horizontal]
 
-Some information elements in the Order is used when issuing the Invoice. The seller needs to ensure that these elements are properly placed in the Invoice format.
+Certain information from the Order is required when issuing the Invoice. The seller must ensure that these elements are correctly placed in the Invoice format.
+
 
 === Mapping of information from Order to Invoice
 
-The following table shows the proper mapping between the order and the invoice
+The table below shows how information from the Order should be mapped to the Invoice:
 [cols="1,1,1", options="header"]
 |===
 | Business term | Location in Order | Location in Invoice
