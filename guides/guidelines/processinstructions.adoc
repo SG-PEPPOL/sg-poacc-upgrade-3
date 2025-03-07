@@ -1,5 +1,20 @@
-= Process instructions
+= The Process
 [horizontal]
+== Advanced ordering general process steps
+Peppol BIS Advanced Ordering is made up of a set of subprocesses that allow both the buyer and the seller to make changes or cancellations to an order. The subprocesses are:
+
+*Buyer's processes*
+
+* Place initial order
+* Change the order
+* Cancel the order
+
+*Seller's processes*
+
+* Change the order
+* Cancel the order
+
+== Specific process instructions
 
 In the context of trade with Singapore government buyers using this BIS, the seller is not allowed to use electronic messages through Peppol to propose change or cancel an order after it has been placed. Only the buyer has the possibility to manage the order after submission, which includes, making changes or cancelling the initial order.
 
@@ -14,7 +29,7 @@ NOTE: When the *seller* needs to propose a change or cancel an order, they must 
 ****
 
 == Responding to the order
-The Peppol BIS Advanced ordering describes how the seller can respond to the Order, Order Change and Order Cancellation using the Order response message. Howeverm The Singapore government buyers do not currently have reception functionality for the Order response and the seller should therefor not send the response as an electonic message.
+The Peppol BIS Advanced ordering describes how the seller can respond to the Order, Order Change and Order Cancellation using the Order response message. However, The Singapore government buyers do not currently have receiving functionality for the Order response and the seller should therefor not send the response as an electronic message.
 
 ****
 NOTE: When the *seller* can't accept an order, they must contact the buyer directly using contact channels defined in their contract (such as by phone or email).

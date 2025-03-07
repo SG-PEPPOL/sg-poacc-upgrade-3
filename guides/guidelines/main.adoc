@@ -1,5 +1,5 @@
-= Implementation handbook for trade with Singapore governmental entities
-Updated date:: 2025-03-05
+= Implementation handbook for trade with Singapore governmental buyers
+Updated date:: 2025-03-07
 :icons: font
 :source-highlighter: coderay
 :toc: left

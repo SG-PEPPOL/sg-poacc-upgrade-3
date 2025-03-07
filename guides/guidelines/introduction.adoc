@@ -1,21 +1,8 @@
 = Introduction
 [horizontal]
 
-The purpose of this handbook is to simplify for implementers and to ensure that their solutions support the e-ordering business process used by Singapore government buyers. The Peppol BIS Advanced Ordering is comprehensive and rich in features, however often only a subset of these features are used by trading partners. This tailoring of the process typically mirrors the business needs, contractual arrangements and other established practices for the specific context. Example of this can be legal procurement requirements or industry specific processes. 
+The purpose of this handbook is to simplify for implementers and to ensure that their solutions support the e-ordering business process used by Singapore government buyers. The Peppol BIS Advanced Ordering is comprehensive and rich in features, however often only a subset of these features are used by trading partners. This tailoring of the process typically mirrors the business needs, contractual arrangements and other established practices within a specific community. Examples of this can be legal procurement requirements or industry specific processes.
 
 The Peppol BIS says that the specification "can function as a component in an EDI agreement within a trading community". This handbook can be seen as such an agreement which lays down the process steps and functionality to use and to not use in this specific context.
 
-=== Advanced ordering process steps
-Peppol BIS Advanced Ordering is made up of a set of subprocesses that allow both the buyer and the seller to make changes or cancellations to an order. The subprocesses are:
-
-*Buyer's processes*
-
-* Place initial order
-* Change the order
-* Cancel the order
-
-*Seller's processes*
-
-* Change the order
-* Cancel the order
 

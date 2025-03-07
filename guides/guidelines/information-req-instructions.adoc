@@ -12,23 +12,23 @@ The following table shows the proper mapping between the order and the invoice
 
 | Order Identifier
 | Order/cbc:ID
-| Invoice/cac:OrderReference/cbc:ID
+| => Invoice/cac:OrderReference/cbc:ID
 
 | Order Line Identifier
 QUESTION: ARE LINE REFERENCES REQUIRED?
 | Order/cac:OrderLine/
 cac:LineItem/cbc:ID
-| Invoice/cac:InvoiceLine/
+| => Invoice/cac:InvoiceLine/
 cac:OrderLineReference/cbc:LineID
 
 | Buyer reference
 (sub-business unit)
 | Order/cbc:CustomerReference
-| Invoice/cbc:BuyerReference
+| => Invoice/cbc:BuyerReference
 
 | Payment terms
 (sub-business unit)
 | Order/cac:PaymentTerms/cbc:Note
-| Invoice/cac:PaymentTerms/cbc:Note
+| => Invoice/cac:PaymentTerms/cbc:Note
 |===
 
