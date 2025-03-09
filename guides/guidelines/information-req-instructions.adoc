@@ -1,8 +1,7 @@
 = Issuing invoice based on the order
 [horizontal]
 
-Certain information from the Order is required when issuing the Invoice. The seller must ensure that these elements are correctly placed in the Invoice format.
-
+Certain information from the Order is required when issuing the Invoice. The seller must ensure that these elements are correctly placed in the Invoice format. See the link:https://www.vendors.gov.sg/common/UserManual.aspx[AGD user manuals, window=_blank] for further technical details to take into account when submitting invoices through InvoiceNow.
 
 === Mapping of information from Order to Invoice
 
@@ -32,3 +31,17 @@ cac:OrderLineReference/cbc:LineID
 | => Invoice/cac:PaymentTerms/cbc:Note
 |===
 
+=== Use of optional information elements
+The Order, Order Cancellation, and Order Change transactions include several optional information elements used by Singapore Government buyers. It is important that these elements are presented to and processed by the seller. The table below outlines these elements and their purposes.
+
+[cols="1,1,1", options="header"]
+|===
+| Business term | Location in Order | Function
+
+| Order Line Note
+| Order/cac:OrderLine/cbc:Note
+| Used for delivery address on line level.
+
+| XYZ
+| Order/XPATH
+| Description of how it is used.

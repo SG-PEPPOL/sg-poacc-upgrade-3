@@ -1,5 +1,4 @@
-= Implementation handbook for trade with Singapore governmental buyers
-Updated date:: 2025-03-07
+= Technical handbook for use of Advanced Ordering BIS with Singapore Government
 :icons: font
 :source-highlighter: coderay
 :toc: left
@@ -20,6 +19,6 @@ include::information-req-instructions.adoc[]
 
 include::typical-use-cases.adoc[]
 
-//include::check-list.adoc[]
+include::check-list.adoc[]
 
 :leveloffset: -1

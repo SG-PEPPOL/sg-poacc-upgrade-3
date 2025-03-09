@@ -1,8 +1,9 @@
-= Check list for vendors and solution providers
+= Checklist for sellers and solution providers
 [horizontal]
 
-Check list for sellers
+This checklist helps sellers and implementers ensure a smooth and compliant setup of Peppol BIS Advanced Ordering.
 
-* [ ] Make sure to register as receiver in Peppol for Order, OrderChange and OrderCancellation.
-* [ ] Verify that contact in
-* [ ] Task 3
+* [ ] Register in the Peppol network - Ensure the seller is registered to receive Order, OrderChange, and OrderCancellation messages.
+* [ ] Handle order responses correctly - Know how to respond if an order cannot be accepted.
+* [ ] Issue invoices accurately - Ensure invoices include correct references and details from the order.
+* [ ] Understand optional fields - Be aware of key optional fields used by the buyer.
