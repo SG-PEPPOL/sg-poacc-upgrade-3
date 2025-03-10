@@ -1,4 +1,4 @@
-= Technical handbook for use of Advanced Ordering BIS with Singapore Government
+= Singapore Government use of Advanced Ordering BIS: Essential Guidelines for Vendors
 :icons: font
 :source-highlighter: coderay
 :toc: left

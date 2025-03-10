@@ -3,4 +3,4 @@
 
 * Structured ordering improves quality and reduces invoice disputes, leading to faster payments and cost savings for all parties.
 * Allows gradual implementation based on cost and benefit, enabling agencies to optimize procurement processes over time.
-* Gives suppliers the option to use their own systems for handling orders, as an alternative to government portals or other communication channels such as phone or email.
+* Gives sellers the option to use their own systems for handling orders, as an alternative to government portals or other communication channels such as phone or email.
