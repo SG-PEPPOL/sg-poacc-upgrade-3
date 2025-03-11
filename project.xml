@@ -3,6 +3,7 @@
     <Name>SG Peppol BIS eDocs</Name>
     <!-- Introduction -->
 <Documentation path="../">Back to www.peppolguide.sg</Documentation>
+<Documentation path="guidelines/">Guideline for Vendors - Advanced Ordering</Documentation>
     <!-- BIS documents -->
 <!--    <Documentation path="">BIS DOCUMENTS</Documentation>-->
 	<Documentation path="profiles/3-order-only/">- Peppol BIS Order only 3.3</Documentation>
