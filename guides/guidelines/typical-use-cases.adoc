@@ -1,10 +1,10 @@
 = Typical use cases
 [horizontal]
 
-This below use cases and correspondig test files shows typical transactions from a Singapore government
+The below use cases and correspondig test files shows typical transactions from a Singapore government
 
 == Use case 1 - Initial order
-An initial order using the mandatory information and in addition to commonly used optional elements. 
+An initial order using the mandatory information and in addition commonly used optional elements. 
 
 The initial order contains:
 
@@ -14,7 +14,7 @@ The initial order contains:
 
 == Use case 2 - Change to ordered quantity on order line
 
-An order change (of the initial order from use case 1) using the mandatory information and in addition to commonly used optional elements. 
+An order change (of the initial order from use case 1) using the mandatory information and in addition commonly used optional elements. 
 
 The order change contains:
 
@@ -27,7 +27,7 @@ The order change contains:
 
 == Use case 3 - Cancellation of the order 
 
-An order cancellation (of the initial order from use case 1) using the mandatory information and in addition to commonly used optional elements. 
+An order cancellation (of the initial order from use case 1) using the mandatory information and in addition commonly used optional elements. 
 
 The order cancellation contains:
 
