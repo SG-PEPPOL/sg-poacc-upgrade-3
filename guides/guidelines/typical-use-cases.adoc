@@ -1,8 +1,36 @@
 = Typical use cases
 [horizontal]
 
-== Use case 1 - Initial order
+This below use cases and correspondig test files shows typical transactions from a Singapore government
 
-== Use case 2 - Change to order lines
+== Use case 1 - Initial order
+An initial order using the mandatory information and in addition to commonly used optional elements. 
+
+The initial order contains:
+
+* Buyer and seller party information including contact information
+* Payment terms according to the codelist
+* Two order lines with delivery address in the note-field.
+
+== Use case 2 - Change to ordered quantity on order line
+
+An order change (of the initial order from use case 1) using the mandatory information and in addition to commonly used optional elements. 
+
+The order change contains:
+
+* Buyer and seller party information including contact information
+* Reference to the initial order
+* Payment terms according to the codelist
+* Two order lines with delivery address in the note-field.
+* Change to the quantity of the first line. No change on the second line.
+
 
 == Use case 3 - Cancellation of the order 
+
+An order cancellation (of the initial order from use case 1) using the mandatory information and in addition to commonly used optional elements. 
+
+The order cancellation contains:
+
+* Buyer and seller party information including contact information
+* Reference to the initial order
+* Text with reason for cancellation

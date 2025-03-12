@@ -66,18 +66,39 @@
       <cbc:PayableAmount currencyID="SGD">5000.00</cbc:PayableAmount>
     </cac:AnticipatedMonetaryTotal>
     <cac:OrderLine>
-      <cbc:Note>Machinery parts</cbc:Note>
+      <cbc:Note>Delivery Address:
+      Block 123, #05-67
+Jurong West Street 42
+Singapore 640123
+      </cbc:Note>
       <cac:LineItem>
         <cbc:ID>1</cbc:ID>
-        <cbc:Quantity unitCode="XLT">100</cbc:Quantity>
-        <cbc:LineExtensionAmount currencyID="SGD">5000</cbc:LineExtensionAmount>
+        <cbc:Quantity unitCode="XLT">50</cbc:Quantity>
+        <cbc:LineExtensionAmount currencyID="SGD">2500</cbc:LineExtensionAmount>
         <cac:Price>
           <cbc:PriceAmount currencyID="SGD">50</cbc:PriceAmount>
         </cac:Price>
         <cac:Item>
-          <cbc:Description>Machinery parts</cbc:Description>
           <cbc:Name>Machinery parts</cbc:Name>
         </cac:Item>
       </cac:LineItem>
     </cac:OrderLine>
+    <cac:OrderLine>
+      <cbc:Note>Delivery Address:
+      Block 123, #05-67
+Jurong West Street 42
+Singapore 640123
+      </cbc:Note>
+      <cac:LineItem>
+        <cbc:ID>2</cbc:ID>
+        <cbc:Quantity unitCode="XLT">100</cbc:Quantity>
+        <cbc:LineExtensionAmount currencyID="SGD">2500</cbc:LineExtensionAmount>
+        <cac:Price>
+          <cbc:PriceAmount currencyID="SGD">25</cbc:PriceAmount>
+        </cac:Price>
+        <cac:Item>
+          <cbc:Name>Drill, ProTorque X750</cbc:Name>
+        </cac:Item>
+      </cac:LineItem>
+    </cac:OrderLine>    
   </Order>
