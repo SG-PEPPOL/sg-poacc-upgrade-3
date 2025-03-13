@@ -1,6 +1,6 @@
 = Audience
 [horizontal]
 
-* Vendors and suppliers to Singapore government buyers who want to use their own solutions to receive orders
-* Solution providers implementing support in ERPs
-* Trainers, consultants, and others who support and advise on the implementation of electronic trade
+* B2G vendors who are using their own solutions to receive orders via InvoiceNow
+* InvoiceNow solution providers implementing support in ERPs and accounting solutions
+* Trainers, consultants, and others who support and advise on the implementation of advanced ordering

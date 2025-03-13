@@ -1,8 +1,6 @@
 = Introduction
 [horizontal]
 
-The purpose of this handbook is to support implementers Peppol BIS Advanced Ordering and ensure that their solutions correctly handle the process used by Singapore government buyers. The BIS is comprehensive and feature-rich, but in practice, trading partners often use only a subset of these features. This adaptation typically reflects specific business needs, contractual agreements, and established practices within a community, such as legal procurement requirements or industry-specific processes.
+The purpose of this guide is to support vendors who are implementing InvoiceNow Advanced Ordering features within their solutions and to ensure that their solutions can correctly handle the process used for B2G. The existing Peppol Advance Ordering specifications have a comprehensive feature set. The B2G use case in Singapore utilises a subset of these features as necessary to meet the needs.
 
-The BIS states that the specification "can function as a component in an EDI agreement within a trading community." This handbook serves as such an agreement, defining which process steps and functionalities are used or not used in this context.
-
-
+This guide defines which process steps and functionalities are used (or not used) for B2G transactions in Singapore.

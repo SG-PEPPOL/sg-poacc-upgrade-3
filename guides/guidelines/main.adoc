@@ -1,4 +1,4 @@
-= Singapore Government use of Advanced Ordering BIS: Essential Guidelines for Vendors
+= B2G use of Advanced Ordering BIS: Essential Guidelines for Vendors
 :icons: font
 :source-highlighter: coderay
 :toc: left

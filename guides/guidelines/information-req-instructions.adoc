@@ -1,10 +1,10 @@
 = Issuing invoice based on the order
 [horizontal]
 
-Certain information from the Order is required when issuing the Invoice. The seller must ensure that these elements are correctly placed in the Invoice format. See the link:https://www.vendors.gov.sg/common/UserManual.aspx[AGD user manuals, window=_blank] for:
+Certain information from the Order is required when issuing the invoice. The vendor must ensure that these elements are correctly placed in the invoice format. Please refer to the link:https://www.vendors.gov.sg/common/UserManual.aspx[AGD user manuals, window=_blank] for:
 
-* Further technical details to take into account when submitting invoices through InvoiceNow.
-* Guide to send the test invoice to AGD for verification
+* Further technical details for submitting invoices through InvoiceNow.
+* Guide for sending the test invoice to AGD for verification.
 
 ////
 === Mapping of information from Order to Invoice
@@ -36,7 +36,7 @@ cac:OrderLineReference/cbc:LineID
 |===
 ////
 === Use of optional information elements
-The Order, Order Cancellation, and Order Change transactions include several optional information elements used by Singapore Government buyers. It is important that these elements are presented to and processed by the seller. The table below outlines these elements and their purposes.
+The Order, Order Cancellation, and Order Change transactions include several optional information elements which are used in B2G transactions. It is important for vendors to process these data elements in the order. The table below outlines these elements and their purposes.
 
 [cols="1,1,1", options="header"]
 |===

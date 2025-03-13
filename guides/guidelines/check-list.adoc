@@ -1,9 +1,9 @@
-= Checklist for sellers and solution providers
+= Checklist for vendors and solution providers
 [horizontal]
 
-This checklist helps sellers and implementers ensure a smooth and compliant setup of Peppol BIS Advanced Ordering.
+The below checklist helps vendors and implementers ensure a smooth and compliant setup of InvoiceNow Advanced Ordering for B2G.
 
-* [ ] Register in the Peppol network - Ensure the seller is registered to receive Order, OrderChange, and OrderCancellation messages.
-* [ ] Handle order responses correctly - Know how to respond if an order cannot be accepted.
+* [ ] Register on the InvoiceNow network - Ensure the vendor is registered to receive Order, OrderChange, and OrderCancellation messages .
+* [ ] Handle order responses correctly - Currently, any responses to the order should be managed outside the InvoiceNow network.
 * [ ] Issue invoices accurately - Ensure invoices include correct references and details from the order.
 * [ ] Understand optional fields - Be aware of key optional fields used by the buyer.
