@@ -1,4 +1,4 @@
-= The Process Flow
+= The process flow
 [horizontal]
 
 == B2G process instructions
