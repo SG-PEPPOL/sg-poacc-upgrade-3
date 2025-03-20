@@ -1,7 +1,7 @@
 = The Process Flow
 [horizontal]
 
-== Specific process instructions
+== B2G process instructions
 
 In B2G transactions using Advance Ordering , the vendor shall not send electronic messages through Peppol to propose changes or cancellations after an order has been sent by the buyer. Only the buyer can manage the order after submission, including making changes or cancelling the initial order.
 
