@@ -3,7 +3,6 @@
     <Name>SG Peppol BIS eDocs</Name>
     <!-- Introduction -->
 <Documentation path="../">Back to www.peppolguide.sg</Documentation>
-<Documentation path="guidelines/">Guideline for Vendors - Advanced Ordering</Documentation>
     <!-- BIS documents -->
 <!--    <Documentation path="">BIS DOCUMENTS</Documentation>-->
 	<Documentation path="profiles/3-order-only/">- Peppol BIS Order only 3.3</Documentation>
@@ -16,7 +15,8 @@
 <!--    <Documentation path="profiles/36-mlr/">- Peppol BIS Message Level Response 3.0</Documentation>-->
     <Documentation path="profiles/63-invoiceresponse/">- Peppol BIS Invoice Response 3.2</Documentation>
     <Documentation path="profiles/65-advanced-ordering/">- Peppol BIS Advanced Ordering 3.0</Documentation>
-	
+
+	<Documentation path="guidelines/">B2G use of Peppol BIS Advanced Ordering</Documentation>
 	<Documentation path="introduction/">About these specifications</Documentation>
 	<Documentation path="">Non-normative overview (Mind Map)</Documentation>
 	<Documentation path="../models/PEPPOL.Order.transaction.3.2.T01.html">- Order transaction</Documentation>

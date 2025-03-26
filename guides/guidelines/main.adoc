@@ -1,4 +1,4 @@
-= B2G use of Advanced Ordering BIS: Essential Guidelines for Vendors
+= B2G use of Peppol BIS Advanced Ordering
 :icons: font
 :source-highlighter: coderay
 :toc: left
