@@ -1,0 +1,6 @@
+= Introduction
+[horizontal]
+
+The purpose of this guide is to support vendors who are implementing InvoiceNow Advanced Ordering features within their solutions and to ensure that their solutions can correctly handle the process used for B2G. The existing Peppol Advance Ordering specifications have a comprehensive feature set. The B2G use case in Singapore utilises a subset of these features as necessary to meet the needs.
+
+This guide defines which process steps and functionalities are used (or not used) for B2G transactions in Singapore.

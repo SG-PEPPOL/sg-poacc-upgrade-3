@@ -1,0 +1,57 @@
+= Issuing invoice based on the order
+[horizontal]
+
+Certain information from the Order is required when issuing the invoice. The vendor must ensure that these elements are correctly placed in the invoice format. Please refer to the link:https://www.vendors.gov.sg/common/UserManual.aspx[AGD user manuals, window=_blank] for:
+
+* Further technical details for submitting invoices through InvoiceNow.
+* Guide for sending the test invoice to AGD for verification.
+
+////
+=== Mapping of information from Order to Invoice
+
+The table below shows how information from the Order should be mapped to the Invoice:
+[cols="1,1,1", options="header"]
+|===
+| Business term | Location in Order | Location in Invoice
+
+| Order Identifier
+| Order/cbc:ID
+| => Invoice/cac:OrderReference/cbc:ID
+
+| Order Line Identifier
+QUESTION: ARE LINE REFERENCES REQUIRED?
+| Order/cac:OrderLine/
+cac:LineItem/cbc:ID
+| => Invoice/cac:InvoiceLine/
+cac:OrderLineReference/cbc:LineID
+
+| Buyer reference
+(sub-business unit)
+| Order/cbc:CustomerReference
+| => Invoice/cbc:BuyerReference
+
+| Payment terms
+| Order/cac:PaymentTerms/cbc:Note
+| => Invoice/cac:PaymentTerms/cbc:Note
+|===
+////
+=== Use of optional information elements
+The Order, Order Cancellation, and Order Change transactions include several optional information elements which are used in B2G transactions. It is important for vendors to process these data elements in the order. The table below outlines these elements and their purposes.
+
+[cols="1,1,1", options="header"]
+|===
+| Business term | Location in Order | Function
+
+| Order Line Note
+| Order/cac:OrderLine/cbc:Note
+| Used for delivery address on line level.
+
+| Buyer reference
+(sub-business unit)
+| Order/cbc:CustomerReference
+| Business unit of the client agency
+
+| Payment terms
+| Order/cac:PaymentTerms/cbc:Note
+| Based on the agreed payment terms with your client agency
+|===
