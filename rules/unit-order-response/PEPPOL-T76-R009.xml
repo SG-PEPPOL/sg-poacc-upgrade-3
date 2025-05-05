@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testSet xmlns="http://difi.no/xsd/vefa/validator/1.0"
-	configuration="peppolbis-t116-base-3.0">
+	configuration="peppolbis-t76-base-3.0">
 	<assert>
 		<description>An order response with code RE (Rejected) should NOT provide order lines.</description>
-		<scope>PEPPOL-T116-R009</scope>
+		<scope>PEPPOL-T76-R009</scope>
 	</assert>
 	
 	<test>
 
 		<assert>		
-			<success>PEPPOL-T116-R009</success>
+			<success>PEPPOL-T76-R009</success>
 		</assert>
 		
 		<OrderResponse xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
@@ -31,7 +31,7 @@
 	
 	<test>
 		<assert>		
-			<warning>PEPPOL-T116-R009</warning>
+			<warning>PEPPOL-T76-R009</warning>
 		</assert>
 		
 		<OrderResponse xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"

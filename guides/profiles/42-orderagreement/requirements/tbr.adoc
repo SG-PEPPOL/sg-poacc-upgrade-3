@@ -45,7 +45,7 @@ The above high level requirements are supported by the following transaction req
 |For additional description to the purchased item/service the lines in an order agreement must provide for adding properties and attributes.
 
 |tbr110-013
-|An item should have information regarding the TAX rate and TAX category.
+|An item should have information regarding the VAT rate and VAT category.
 
 |tbr110-014
 |An order agreement must provide seller contact information for the buyer to use when resolving issues with the order agreement.
