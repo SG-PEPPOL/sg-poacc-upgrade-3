@@ -1,5 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Sample file which contains all elements -->
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardBusinessDocument xmlns="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader">
+	<StandardBusinessDocumentHeader>
+		<HeaderVersion>1.0</HeaderVersion>
+		<Sender>
+			<Identifier Authority="iso6523-actorid-upis">0195:SGTSTT08GB0025A</Identifier>
+		</Sender>
+		<Receiver>
+			<Identifier Authority="iso6523-actorid-upis">0195:SGTSTIMDADEMO02</Identifier>
+		</Receiver>
+		<DocumentIdentification>
+			<Standard>urn:oasis:names:specification:ubl:schema:xsd:OrderChange</Standard>
+			<TypeVersion>2.3</TypeVersion>
+			<InstanceIdentifier>7ea39746-b3a1-4136-844a-03bd9611656f</InstanceIdentifier>
+			<Type>OrderChange</Type>
+			<CreationDateAndTime>2025-06-04T17:44:25Z</CreationDateAndTime>
+		</DocumentIdentification>
+		<BusinessScope>
+			<Scope>
+				<Type>DOCUMENTID</Type>
+				<InstanceIdentifier>urn:oasis:names:specification:ubl:schema:xsd:OrderChange-2::OrderChange##urn:fdc:peppol.eu:poacc:trns:order_change:3::2.3</InstanceIdentifier>
+				<Identifier>busdox-docid-qns</Identifier>
+			</Scope>
+			<Scope>
+				<Type>PROCESSID</Type>
+				<InstanceIdentifier>urn:fdc:peppol.eu:poacc:bis:advanced_ordering:3</InstanceIdentifier>
+				<Identifier>cenbii-procid-ubl</Identifier>
+			</Scope>
+			<Scope>
+				<Type>COUNTRY_C1</Type>
+				<InstanceIdentifier>SG</InstanceIdentifier>
+			</Scope>
+		</BusinessScope>
+	</StandardBusinessDocumentHeader>
+	
 <OrderChange
     xmlns="urn:oasis:names:specification:ubl:schema:xsd:OrderChange-2"
     xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
@@ -394,3 +427,4 @@ Singapore 640123
 		</cac:LineItem>
 	</cac:OrderLine>
 </OrderChange>
+</StandardBusinessDocument>
