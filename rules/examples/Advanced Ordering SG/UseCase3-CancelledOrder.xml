@@ -11,20 +11,20 @@
 	</cac:OrderReference>
     <cac:BuyerCustomerParty>
       <cac:Party>
-        <cbc:EndpointID schemeID="0195">SGTSTT08GB0025A</cbc:EndpointID>
+        <cbc:EndpointID schemeID="0195">SGTSTT12345678A</cbc:EndpointID>
         <cac:PartyIdentification>
-          <cbc:ID>T08GB0025A</cbc:ID>
+          <cbc:ID>T12345678A</cbc:ID>
         </cac:PartyIdentification>
         <cac:PartyName>
-          <cbc:Name>Jurong Town Corporation</cbc:Name>
+          <cbc:Name>Buyer Company</cbc:Name>
         </cac:PartyName>
         <cac:PartyLegalEntity>
-          <cbc:RegistrationName>Jurong Town Corporation</cbc:RegistrationName>
+          <cbc:RegistrationName>Buyer Company</cbc:RegistrationName>
         </cac:PartyLegalEntity>
         <cac:Contact>
           <cbc:Name>DEV LTA BUYER</cbc:Name>
           <cbc:Telephone>2132132</cbc:Telephone>
-          <cbc:ElectronicMail>nino.fm@ebiz.dsta</cbc:ElectronicMail>
+          <cbc:ElectronicMail>buyer@buyer.com</cbc:ElectronicMail>
         </cac:Contact>
       </cac:Party>
     </cac:BuyerCustomerParty>
@@ -35,7 +35,7 @@
           <cbc:ID>IMDADEMO02</cbc:ID>
         </cac:PartyIdentification>
         <cac:PartyName>
-          <cbc:Name>SINGAGOLF PTE. LTD.</cbc:Name>
+          <cbc:Name>Supplier Company.</cbc:Name>
         </cac:PartyName>
         <cac:PostalAddress>
           <cbc:StreetName>818, Woodlands Street 82 #09-421</cbc:StreetName>
@@ -45,12 +45,12 @@
           </cac:Country>
         </cac:PostalAddress>
         <cac:PartyLegalEntity>
-          <cbc:RegistrationName>SINGAGOLF PTE. LTD.</cbc:RegistrationName>
+          <cbc:RegistrationName>Supplier Company.</cbc:RegistrationName>
         </cac:PartyLegalEntity>
         <cac:Contact>
-          <cbc:Name>SINGAGOLF PTE. LTD.</cbc:Name>
+          <cbc:Name>Supplier Company.</cbc:Name>
           <cbc:Telephone>65557788</cbc:Telephone>
-          <cbc:ElectronicMail>RESETTED@GEBIZ.GOV.SG</cbc:ElectronicMail>
+          <cbc:ElectronicMail>seller@seller.com</cbc:ElectronicMail>
         </cac:Contact>
       </cac:Party>
     </cac:SellerSupplierParty>
