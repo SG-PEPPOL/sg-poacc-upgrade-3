@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="peppolbis-t01-base-3.0">
 	<assert>
-		<description>ICD (0151) provided.</description>
-		<scope>PEPPOL-COMMON-R050</scope>
+		<description>ICD (9906) provided.</description>
+		<scope>PEPPOL-COMMON-R048</scope>
 	</assert>
 	
-
+ <!-- Rule is commented out
     
 	    <test>
 		<assert>
-			<success>PEPPOL-COMMON-R050</success>
+			<success>PEPPOL-COMMON-R048</success>
 		</assert>
    		<Order xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
 			xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
 			xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2">
 			<cac:BuyerCustomerParty>
 				<cac:Party>
-					<cbc:EndpointID schemeID="0151">51824753556</cbc:EndpointID>
+					<cbc:EndpointID schemeID="9906">IT02985591201</cbc:EndpointID>
 				</cac:Party>
 			</cac:BuyerCustomerParty>
 		</Order>
@@ -26,34 +26,20 @@
 
     <test>
 		<assert>
-			<error>PEPPOL-COMMON-R050</error>
+			<warning>PEPPOL-COMMON-R048</warning>
 		</assert>
    		<Order xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
 			xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
 			xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2">
 			<cac:BuyerCustomerParty>
 				<cac:Party>
-					<cbc:EndpointID schemeID="0151">ERR51824753556</cbc:EndpointID>
+					<cbc:EndpointID schemeID="9906">ITABC</cbc:EndpointID>
 				</cac:Party>
 			</cac:BuyerCustomerParty>
 		</Order>
 	</test>
     
     
-    <test>
-		<assert>
-			<error>PEPPOL-COMMON-R050</error>
-		</assert>
-   		<Order xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
-			xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
-			xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2">
-			<cac:BuyerCustomerParty>
-				<cac:Party>
-					<cbc:EndpointID schemeID="0151">51824753550</cbc:EndpointID>
-				</cac:Party>
-			</cac:BuyerCustomerParty>
-		</Order>
-	</test>
-    
+-->
 	
 </testSet>

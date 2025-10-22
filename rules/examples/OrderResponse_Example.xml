@@ -9,7 +9,7 @@
 	<cbc:SalesOrderID>101-111</cbc:SalesOrderID>
 	<cbc:IssueDate>2013-07-01</cbc:IssueDate>
 	<cbc:IssueTime>06:10:10</cbc:IssueTime>
-	<cbc:OrderResponseCode>AP</cbc:OrderResponseCode>
+	<cbc:OrderResponseCode>CA</cbc:OrderResponseCode>
 	<cbc:Note>Response message with amendments in the details</cbc:Note>
 	<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
 	<cbc:CustomerReference>ABC-123</cbc:CustomerReference>
@@ -56,7 +56,9 @@
 			<cac:Delivery>
 				<cac:PromisedDeliveryPeriod>
 					<cbc:StartDate>2018-08-10</cbc:StartDate>
+					<cbc:StartTime>12:30:00</cbc:StartTime>
 					<cbc:EndDate>2018-08-12</cbc:EndDate>
+					<cbc:EndTime>18:00:00</cbc:EndTime>
 				</cac:PromisedDeliveryPeriod>
 			</cac:Delivery>
 			<cac:Price>
