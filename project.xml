@@ -45,7 +45,7 @@
     <Resource>
         <Type>Structure-1</Type>
         <Path>structure/syntax/ubl-order-change.xml</Path>
-        <Title>Peppol Order Change transaction 3.1 (T114)</Title>
+        <Title>Peppol Order Change transaction 3.2 (T114)</Title>
     </Resource>
     <Resource>
         <Type>Structure-1</Type>
@@ -119,7 +119,7 @@
         <Identifier>T76</Identifier>
         <Type>native:Schematron</Type>
         <Path>rules/sch/parts/PEPPOL-M-T76.sch</Path>
-        <Title>Business rules for Peppol Order Response transaction 3.2</Title>
+        <Title>Business rules for Peppol Order Response transaction 3.3</Title>
     </Resource>
 <!--    <Resource>
         <Identifier>T77</Identifier>
