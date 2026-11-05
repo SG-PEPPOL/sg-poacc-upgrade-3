@@ -118,7 +118,6 @@
 					validity end date</Description>
 				<DataType>Date</DataType>
 				<Reference type="BUSINESS_TERM">tir114-010</Reference>
-				<Reference type="RULE">PEPPOL-T114-R002</Reference>
 				<Value type="EXAMPLE">2022-03-01</Value>
 			</Element>
 		</Element>
@@ -1374,6 +1373,15 @@
 					<Value type="EXAMPLE">NA</Value>
 				</Element>
 				<Element cardinality="0..1">
+					<Term>cbc:ShippingPriorityLevelCode</Term>
+					<Name>Requested shipping priority</Name>
+					<Description>The priority level requested by the buyer for the shipping of the order. Use value: "1" for Express/urgent/rush.</Description>
+					<DataType>code</DataType>
+					<Reference type="BUSINESS_TERM">tir114-p039</Reference>
+					<Reference type="CODE_LIST">UNCL4219</Reference>
+					<Value type="EXAMPLE">1</Value>
+				</Element>
+				<Element cardinality="0..1">
 					<Term>cac:TransportHandlingUnit</Term>
 					<Name>Transport handling unit</Name>
 					<Element cardinality="0..1">
@@ -1777,8 +1785,8 @@
 				</Element>
 				<Element>
 					<Term>cbc:LineStatusCode</Term>
-					<Name>Response code</Name>
-					<Description>A code that indicates status of the referenced order line</Description>
+					<Name>Order Change line status code</Name>
+					<Description>A code from the Order Change subset of UNCL1229 that indicates the requested action for the order line. See the Advanced Ordering BIS guidance for the business use of codes 1, 2, 3, 4 and 74.</Description>
 					<Reference type="CODE_LIST">UNCL1229_CHANGE</Reference>
 					<Value type="EXAMPLE">3</Value>
 				</Element>
@@ -2171,6 +2179,18 @@
 						</Element>
 					</Element>
 					<Element cardinality="0..1">
+						<Term>cac:ManufacturersItemIdentification</Term>
+						<Name>Manufacturers Item Identifier</Name>
+						<Element>
+							<Term>cbc:ID</Term>
+							<Name>Manufacturers Item Identifier</Name>
+							<Description>An identifier, assigned by the items manufacturer, for the item.</Description>
+							<DataType>Identifier</DataType>
+							<Reference type="BUSINESS_TERM">tir114-p040</Reference>
+							<Value type="EXAMPLE">manid659</Value>
+						</Element>
+					</Element>
+					<Element cardinality="0..1">
 						<Term>cac:StandardItemIdentification</Term>
 						<Name>Standard item identification</Name>
 						<Element>
@@ -2284,7 +2304,6 @@
 							<Term>cbc:ID</Term>
 							<Name>ID</Name>
 							<Description>ID of the property if assigned by an Agency</Description>
-							<Value type="EXAMPLE">77e416eb-a363-4258-a04e-171d843a6460</Value>
 							<Attribute usage="Optional">
 								<Term>schemeDataURI</Term>
 								<Name>Scheme Data URI</Name>
@@ -2303,6 +2322,7 @@
 								<Description>Scheme version identifier</Description>
 								<Value type="EXAMPLE">2022</Value>
 							</Attribute>
+							<Value type="EXAMPLE">77e416eb-a363-4258-a04e-171d843a6460</Value>
 						</Element>
 						<Element>
 							<Term>cbc:Name</Term>
@@ -2320,13 +2340,13 @@
 							<Description>Code for the item property according to a property code system.</Description>
 							<DataType>Code</DataType>
 							<Reference type="BUSINESS_TERM">tir114-p024</Reference>
-							<Value type="EXAMPLE">NameCode</Value>
 							<Attribute>
 								<Term>listID</Term>
 								<Name>Name code list id.</Name>
 								<Description>An identifier for the code list used for the Name code, this is bilaterally agreed</Description>
 								<Value type="EXAMPLE">NameCodeList</Value>
 							</Attribute>
+							<Value type="EXAMPLE">NameCode</Value>
 						</Element>
 						<Element>
 							<Term>cbc:Value</Term>

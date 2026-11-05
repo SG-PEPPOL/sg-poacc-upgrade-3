@@ -26,16 +26,8 @@
                 flag="fatal">[PEPPOL-T01-R003]-An order SHALL be stated in a single currency</assert>
         <assert id="PEPPOL-T01-R028"
                 test="ancestor::node()/local-name() = 'Price' or string-length(substring-after(., '.')) &lt;= 2"
-                flag="fatal">[PEPPOL-T01-R028]-Elements of data type amount cannot have more than 2 decimals (I.e. all amounts except unit price amounts)</assert>
+                flag="fatal">[PEPPOL-T01-R028]-Elements of data type amount SHALL NOT have more than 2 decimals (I.e. all amounts except unit price amounts)</assert>
     </rule>
-
-    <!-- Document level -->
-    <rule context="ubl:Order">
-        <assert id="PEPPOL-T01-R002"
-                test="cac:ValidityPeriod/cbc:EndDate"
-                flag="warning">[PEPPOL-T01-R002]-An order SHOULD provide information about its validity end date.</assert>
-    </rule>
-
 
     <!-- Originator party -->
     <rule context="cac:OriginatorCustomerParty">

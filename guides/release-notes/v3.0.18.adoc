@@ -1,0 +1,74 @@
+= Version 3.0.18
+[horizontal]
+Release date:: November 2026
+* Date of member review: 2026-09-14
+* Date of publication: 2026-11-23
+* Mandatory to use from: 2027-02-24
+
+== BIS documentation
+
+* Invoice Response BIS 3.0 (Profile 63)
+** Extended to support Invoice Responses to self-billed invoices and credit notes. In self-billing, the Seller sends the Invoice Response to the Buyer that issued the referenced document. The same Invoice Response syntax, validation rules, status codes, and clarification codes apply to both standard billing and self-billing. https://openpeppol.atlassian.net/browse/RFC-575
+** Clarified the usage of status Paid with credit-notes. The status code Paid is used to signal that the invoice (debit/credit) is finished, and that no further action is expected. It is not a remittance advice. https://openpeppol.atlassian.net/browse/RFC-587
+
+* Advanced Ordering BIS 3.0 (Profile 65)
+** Added a new section describing the business use of the Order Change line status codes, including code 74 - Reopened, which is used to make a previously deleted order line active again. Added a matching entry to the code list chapter, and a note in scenario 2 on when a buyer may reopen a line. Added an Order Change example showing a line being reopened after deletion. https://openpeppol.atlassian.net/browse/RFC-573
+**Added Clarification on the Rejection guidance FOR Order Response Advanced section 7.2
+
+* BIS Catalogue with and without response (Profile 1 and Profile 64)
+**Added section 6.16 describing the calculations and usage of Product climate data, including new codelist for Item Property Name Codes(IPNC). https://openpeppol.atlassian.net/browse/RFC-540
+** Added the missing examples in section 6.16 for net weight, the buyer's item identifier, generic climate data and an Environmental Product Declaration. The examples are catalogue lines.
+
+
+== Changes to syntax
+* Order Change (T114)
+** Clarified the name and description of `cbc:LineStatusCode` to state that it carries the Order Change subset of UNCL1229, and to reference the new Advanced Ordering BIS guidance on the business use of codes 1, 2, 3, 4 and 74. https://openpeppol.atlassian.net/browse/RFC-493
+
+* Punchout transaction (T77)
+**added PackagingMarkedLabelAccreditationCode code list to item label to align with order messages. https://openpeppol.atlassian.net/browse/RFC-536
+
+* Order Change(T114)
+** Added shippingPriorityLevelCode (Optional) and ManufacturersItemIdentification(Optional) to OrderChange in order to align with order messages 
+
+* Order transaction (T01)
+** Changed cardinality to Orderline RequestedDeliveryPeriod from mandatory to optional https://openpeppol.atlassian.net/browse/RFC-593
+
+== Changes to code lists and validation artefacts
+* Codelist publication date: 2026-09-11
+* Validation artefacts UBL publication date: 2026-10-09
+* icd 0208 description no longer states that the number identifies establishment units as well as entities.
+
+[cols="1,1,1,1"]
+|===
+|codelist|removed|added|description changed
+|icd |0 [] |3 [0249,0250,0251] |1 [0208]
+|UNCL1001 |1 [1999] |68 [752,753,754,755,756,757,758,759,762,767,768,769,771,772,773,774,776,777,778,779,813,814,815,816,817,818,819,826,827,828,829,831,832,834,835,836,837,838,839,842,843,844,845,846,847,848,849,854,857,858,859,866,867,868,869,871,872,873,874,875,876,877,878,879,891,892,893,894] |0 []
+|===
+
+==  EN 16931 schematrons updated
+
+== Changes to PEPPOL-COMMON rules
+* Changed rule PEPPOL-COMMON-R040 to allow ONLY GLN13 values with schemeID 0088.
+* Updated rule PEPPOL-COMMON-R043 (fatal). A Belgian enterprise number (schemeID 0208) must start with 0 or 1, followed by nine digits, and pass the existing modulo 97 check. A number that starts with 2 to 9 is no longer valid.
+* Changed the wording of warning rules PEPPOL-COMMON-R044, PEPPOL-COMMON-R045, PEPPOL-COMMON-R046, and PEPPOL-COMMON-R047 from “must” to “SHOULD” to align the rule text with the severity. [RFC-558](https://openpeppol.atlassian.net/browse/RFC-558)
+* Changed rules PEPPOL-COMMON-R054, PEPPOL-COMMON-R055, PEPPOL-COMMON-R056-1, PEPPOL-COMMON-R056-2, and PEPPOL-COMMON-R057 from warning to fatal after the announced transition period. [RFC-541](https://openpeppol.atlassian.net/browse/RFC-541)
+** The unit tests now expect a fatal error, matching the rules.
+* Added rule PEPPOL-COMMON-R058 (introduced as warning, will change to fatal in coming release) for validation of Luxembourg VAT numbers. The VAT number must follow the format LU followed by 8 digits, where the last 2 digits are the check digits computed as the first 6 digits modulo 89. Applies to Seller VAT identifier (BT-31), Buyer VAT identifier (BT-48), and Tax representative VAT identifier (BT-63). UBL and CII. https://openpeppol.atlassian.net/browse/RFC-582
+* Added rule PEPPOL-COMMON-R059 (introduced as warning, will change to fatal in coming release) for validation of Luxembourg Register of Legal Persons numbers (Matricule, schemeID 0240). The number must be exactly 11 digits; digits 5–6 must be a legal form type code in the range 20–99; and digit 11 must be a valid mod-11 check digit (with an alternative check digit supported for legal form type 24). https://openpeppol.atlassian.net/browse/RFC-584
+* Added rule PEPPOL-COMMON-R062 as a warning. A VAT identifier that starts with BE must have the form BE, then 0 or 1, then nine digits, and the digits must pass the same modulo 97 check as the Belgian enterprise number. The rule is new in this release and stays a warning. It becomes fatal in the May 2027 release.
+
+== Changes to transaction rules
+* Removed rules PEPPOL-T01-R002 and PEPPOL-T114-R002 (warning) which required Order and OrderChange to allways provide a validity end date. https://openpeppol.atlassian.net/browse/RFC-500
+* Aligned the text of existing fatal rules with the severity. The checks are unchanged:
+** PEPPOL-T01-R028, PEPPOL-T110-R013 and PEPPOL-T114-R028 now say SHALL NOT instead of "cannot".
+** PEPPOL-T16-R006, PEPPOL-T19-R006 and PEPPOL-T77-R003 now say SHALL NOT instead of "SHALL not".
+** PEPPOL-T76-R007 to PEPPOL-T76-R010 and PEPPOL-T116-R007 to PEPPOL-T116-R010 now say MUST and MUST NOT instead of "must" and "must NOT".
+** PEPPOL-T77-R005 and PEPPOL-T77-R007 now say SHALL instead of "may".
+** PEPPOL-T114-R004 and PEPPOL-T114-R005 now say MUST NOT instead of "MUST not".
+* PEPPOL-T114-R008 stays a warning. The text now says SHOULD instead of MUST. This is an existing warning, so it does not become fatal.
+
+== Other changes
+* removed an unknown codelist reference "2" from catalogue OrderableUnitFactorRate.
+* added missing test folders for catalogue-response and mlr
+* Added an Order Change example file for Advanced Ordering BIS scenario 2 (`OrderChange_sc2b.xml`) showing an order line being reopened with code 74 after having been deleted in a previous Order Change (`OrderChange_sc2.xml`).
+* Added Clarification on the Order Response Advanced Rejection guidance

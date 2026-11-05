@@ -1,5 +1,5 @@
 = Compliance to BIS
-openPeppol AISBL <http://www.peppol.eu/>
+OpenPeppol AISBL <http://peppol.org/>
 :icons: font
 :source-highlighter: coderay
 :toc: left
@@ -21,5 +21,7 @@ A message is also considered compliant to this BIS if only warnings (and no fata
 include::sender.adoc[]
 
 include::receiver.adoc[]
+
+include::payload.adoc[]
 
 :leveloffset: -1

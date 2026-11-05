@@ -753,7 +753,6 @@
 						<Term>cbc:ID</Term>
 						<Name>ID</Name>
 						<Description>ID of the property if assigned by an Agency</Description>
-						<Value type="EXAMPLE">77e416eb-a363-4258-a04e-171d843a6460</Value>
 						<Attribute usage="Optional">
 							<Term>schemeDataURI</Term>
 							<Name>Scheme Data URI</Name>
@@ -772,6 +771,7 @@
 							<Description>Scheme version identifier</Description>
 							<Value type="EXAMPLE">2022</Value>
 						</Attribute>
+						<Value type="EXAMPLE">77e416eb-a363-4258-a04e-171d843a6460</Value>
 					</Element>
 					<Element>
 						<Term>cbc:Name</Term>
@@ -869,11 +869,12 @@
 					<Element>
 						<Term>cbc:CertificateTypeCode</Term>
 						<Name>Certificate type code</Name>
-						<Description>The UBL structure used for item labeling requires this
-							elements,
-							use the value NA.</Description>
+						<Description>The UBL structure used for item labeling requires this elements,
+							use the value NA if not other applicable package label code.</Description>
 						<DataType>Code</DataType>
-						<Value type="FIXED">NA</Value>
+						<Reference type="CODE_LIST">NA</Reference>
+						<Reference type="CODE_LIST">PackagingMarkedLabelAccreditationCode</Reference>
+						<Value type="EXAMPLE">NA</Value>
 					</Element>
 					<Element>
 						<Term>cbc:CertificateType</Term>

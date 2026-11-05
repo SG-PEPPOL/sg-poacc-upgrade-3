@@ -12,6 +12,8 @@ include::../../../shared/bpmn/bpmn-legend.adoc[]
 [[process-in-general]]
 == Process in general
 
+=== Standard billing
+
 The process starts when a Seller party is preparing an electronic invoice and then sends it to the Buyer.
 After the invoice has been validated and transported the Buyer party receives the invoice.
 
@@ -20,7 +22,7 @@ Once the Buyer has received the invoice in the form that it can be processed he 
 After reception, the Buyer will usually enter into the invoice reviewal and approval process.
 The approval process may result in the invoice being approved as is without any comments.
 In that case the Buyer sends an Invoice Response to the Seller to notify him that the invoice has been approved and will be paid on due date.
-Approval process might be a bit different for the credit note (especially as status “Paid” is not applicable, but the other statuses serve their purpose).
+Approval process might be a bit different for the credit note.
 
 During the approval process, various issues may be identified.
 Issues such as quantities or amounts not being in line with Buyer’s data, missing information to correctly handle the invoice, invoice terms not in line with agreements or contracts and so forth.
@@ -40,6 +42,12 @@ The Buyer may then notify the Seller that the payment has been initiated.
 
 .Common simplified invoice approval process
 image::images/IMR-bpmn.png[]
+
+=== Self-billing
+
+In a self-billing process, the Buyer issues a self-billed invoice on behalf of the Seller and sends it to the Seller. The Seller validates and processes the self-billed invoice and may use an Invoice Response to report its status to the Buyer.
+
+For this flow, the Seller sending the Invoice Response is represented as `cac:SenderParty` and the Buyer receiving it is represented as `cac:ReceiverParty`. The response describes the status inside the Seller's processing workflow. The same Invoice Response syntax, validation rules, status codes, and clarification codes apply; no separate self-billing response document type is used.
 
 :leveloffset: +1
 
